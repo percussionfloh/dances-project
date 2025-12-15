@@ -197,7 +197,7 @@ function addLineNumbersAsSpine(kern) {
 }
 
 getFiles(pathToKernScores).forEach(file => {
-    const id = getIdFromFilename(file);
+    const id = `schubert-${getIdFromFilename(file)}`;
     const pieceForm = formYaml[id];
 
     if (!pieceForm || pieceForm.length === 0) {

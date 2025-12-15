@@ -20,12 +20,18 @@ function getLeft(startBeat) {
 </script>
 
 <template>
-    <div class="relative h-24">
-        <div v-for="part in form" class="absolute h-full p-4 bg-gray-300 rounded flex items-center" :style="{
-                width: `${getWidth(part.startBeat, part.endBeat)}%`,
-                left: `${getLeft(part.startBeat)}%`,
+    <div class="relative h-12">
+        <div v-for="part in form" class="absolute h-full" :style="{
+            width: `${getWidth(part.startBeat, part.endBeat)}%`,
+            left: `${getLeft(part.startBeat)}%`,
         }">
-            {{ part.name }}
+            <UTooltip :text="part.name">
+                <div class="w-full h-full bg-gray-200 rounded px-2 flex items-center hover:bg-primary-400 hover:shadow">
+                    {{ part.name }}
+                </div>
+            </UTooltip>
         </div>
     </div>
 </template>
+    
+

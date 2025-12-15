@@ -18,8 +18,11 @@ const options = reactive({
 
 const openScore = ref(null);
 function toggleScore(value) {
-    openScore.value = openScore.value === value ? null : value;
+    openScore.value = openScore.value === value ? null : value;0
 }
+
+const forms = formData.value.body;
+
 </script>
 
 
@@ -30,9 +33,7 @@ function toggleScore(value) {
         <UTabs :items="tabItems">
 
             <template #minimap>
-                <div class="my-4 flex grow-0 flex-wrap gap-6 md:order-1">
-                    <UCheckbox v-model="options.showKeys" :label="$t('showKeys')" />
-                </div>
+                HELLOOO
                 <div class="grid grid-cols-1 gap-4">
                     <UCard v-for="piece in data">
                         <template #header>
@@ -61,8 +62,7 @@ function toggleScore(value) {
                                     <VerovioCanvas v-if="openScore === piece.slug" view-mode="horizontal" :url="piece.localRawFile" :scale="35" :page-margin="20" />
                                 </div>
                             </div>
-                            <PieceForm v-if="formData?.[piece.slug]" :form="formData[piece.slug]"  :show-keys="options.showKeys"/>
-
+                            <PieceForm v-if="forms?.[piece.slug]" :form="forms[piece.slug]"/>
                         </div>
                     </UCard>
                 </div>
@@ -70,4 +70,5 @@ function toggleScore(value) {
         </UTabs>
     </UContainer>
 </template>
+
 

@@ -1,3 +1,6 @@
 [submodule "schubert-dances"]
 	path = schubert-dances
 	url = https://github.com/WolfgangDrescher/schubert-dances.git
+[submodule "gonzaga-dances"]
+	path = gonzaga-dances
+	url = https://github.com/percussionfloh/gonzaga-dances.git

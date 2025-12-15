@@ -6,7 +6,7 @@ const { data: modulationsData } = await useAsyncData(`modulations`, () => queryC
 const { data: formData } = await useAsyncData(`form`, () => queryCollection('data').path('/data/form').first(), {deep: false });
 
 const modulations = modulationsData.value.body[id] ?? [];
-const form = formData.value.body[id.replace('schubert-', '')] ?? [];
+const form = formData.value.body[id] ?? [];
 
 if (!piece.value) {
     throw createError({

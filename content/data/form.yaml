@@ -1,4 +1,65 @@
-365-01:
+schubert-128-04:
+    -
+        name: A
+        start: 1/1
+        end: 4/3.5
+        startLine: 14
+        endLine: 31
+        startKey: E
+        endKey: E
+        startBeat: 0
+        endBeat: 11.5
+    -
+        name: B
+        start: 5/1
+        end: 8/1
+        startLine: 33
+        endLine: 54
+        startKey: E
+        endKey: E
+        startBeat: 12
+        endBeat: 21
+    -
+        name: 'Sequence: Fonte in Paralleltonart'
+        start: 9/1
+        end: 16/3.5
+        startLine: 58
+        endLine: 101
+        startKey: C
+        endKey: a
+        startBeat: 24
+        endBeat: 47.5
+    -
+        name: C
+        start: 17/1
+        end: 20/1
+        startLine: 104
+        endLine: 119
+        startKey: E
+        endKey: E
+        startBeat: 48
+        endBeat: 57
+    -
+        name: A'
+        start: 21/1
+        end: 24/3.5
+        startLine: 124
+        endLine: 141
+        startKey: E
+        endKey: E
+        startBeat: 60
+        endBeat: 71.5
+    -
+        name: B'
+        start: 25/1
+        end: 28/1
+        startLine: 143
+        endLine: 159
+        startKey: E
+        endKey: E
+        startBeat: 72
+        endBeat: 81
+schubert-365-01:
     -
         name: A
         start: 0/3
@@ -39,7 +100,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 46
-365-02:
+schubert-365-02:
     -
         name: A
         start: 0/2.5
@@ -81,7 +142,7 @@
         endKey: A-
         startBeat: 37.5
         endBeat: 47.5
-365-03:
+schubert-365-03:
     -
         name: A
         start: 0/3
@@ -165,7 +226,7 @@
         endKey: A-
         startBeat: 37
         endBeat: 46
-365-04:
+schubert-365-04:
     -
         name: A
         start: 0/3
@@ -206,7 +267,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 46
-365-05:
+schubert-365-05:
     -
         name: A
         start: 0/3
@@ -247,7 +308,7 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
-365-06:
+schubert-365-06:
     -
         name: A
         start: 0/3
@@ -288,7 +349,7 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
-365-07:
+schubert-365-07:
     -
         name: A
         start: 0/3
@@ -329,7 +390,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 47
-365-08:
+schubert-365-08:
     -
         name: A
         start: 0/3
@@ -370,7 +431,7 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
-365-09:
+schubert-365-09:
     -
         name: A
         start: 0/2.5
@@ -411,7 +472,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 47.5
-365-10:
+schubert-365-10:
     -
         name: A
         start: 0/3
@@ -453,7 +514,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 47
-365-11:
+schubert-365-11:
     -
         name: A
         start: 0/3
@@ -494,7 +555,7 @@
         endKey: A-
         startBeat: 37
         endBeat: 47
-365-12:
+schubert-365-12:
     -
         name: A
         start: 1/1
@@ -508,13 +569,13 @@
     -
         name: B
         start: 5/1
-        end: 8/3
+        end: 8/2
         startLine: 43
-        endLine: 64
+        endLine: 63
         startKey: A-
         endKey: A-
         startBeat: 12
-        endBeat: 23
+        endBeat: 22
     -
         name: C
         start: 9/1
@@ -535,7 +596,7 @@
         endKey: A-
         startBeat: 36
         endBeat: 46
-365-13:
+schubert-365-13:
     -
         name: A
         start: 0/3
@@ -576,7 +637,7 @@
         endKey: A-
         startBeat: 35
         endBeat: 47
-365-14:
+schubert-365-14:
     -
         name: A
         start: 0/3
@@ -590,33 +651,33 @@
     -
         name: B
         start: 5/1
-        end: 8/3
+        end: 8/3.5
         startLine: 47
-        endLine: 73
+        endLine: 74
         startKey: A-
         endKey: A-
         startBeat: 13
-        endBeat: 24
+        endBeat: 24.5
     -
         name: A'
         start: 9/1
-        end: 12/3
+        end: 12/3.5
         startLine: 77
-        endLine: 103
+        endLine: 104
         startKey: A-
         endKey: A-
         startBeat: 25
-        endBeat: 36
+        endBeat: 36.5
     -
         name: Modulation nach A
         start: 13/1
-        end: 16/3
+        end: 16/3.5
         startLine: 106
-        endLine: 134
+        endLine: 135
         startKey: A-
         endKey: A
         startBeat: 37
-        endBeat: 48
+        endBeat: 48.5
     -
         name: A''
         start: 17/1
@@ -630,13 +691,14 @@
     -
         name: Coda???
         start: 21/1
-        end: 25/1
+        end: 24/3
         startLine: 167
-        endLine: null
+        endLine: 190
         startKey: A
-        endKey: null
+        endKey: D-
         startBeat: 61
-365-15:
+        endBeat: 72
+schubert-365-15:
     -
         name: A
         start: 0/3
@@ -677,7 +739,7 @@
         endKey: D-
         startBeat: 36
         endBeat: 46
-365-16:
+schubert-365-16:
     -
         name: A
         start: 0/3
@@ -719,7 +781,7 @@
         endKey: A
         startBeat: 37
         endBeat: 46
-365-17:
+schubert-365-17:
     -
         name: A
         start: 0/3
@@ -760,7 +822,7 @@
         endKey: A
         startBeat: 36
         endBeat: 47
-365-18:
+schubert-365-18:
     -
         name: A
         start: 1/1
@@ -801,7 +863,7 @@
         endKey: A
         startBeat: 39
         endBeat: 48
-365-19:
+schubert-365-19:
     -
         name: A
         start: 0/3
@@ -825,24 +887,24 @@
     -
         name: 'B; Sequence: Fonte'
         start: 8/3
-        end: 12/3
+        end: 12/2
         startLine: 58
-        endLine: 83
+        endLine: 82
         startKey: a
         endKey: G
         startBeat: 24
-        endBeat: 36
+        endBeat: 35
     -
         name: 'B''; Sequence: Fonte'
-        start: 13/1
+        start: 12/3
         end: 16/1
-        startLine: 89
+        startLine: 83
         endLine: 110
-        startKey: a
+        startKey: G
         endKey: G
-        startBeat: 37
+        startBeat: 36
         endBeat: 46
-365-20:
+schubert-365-20:
     -
         name: A
         start: 0/3
@@ -884,7 +946,7 @@
         endKey: G
         startBeat: 36
         endBeat: 46
-365-21:
+schubert-365-21:
     -
         name: A
         start: 0/3
@@ -925,7 +987,7 @@
         endKey: G
         startBeat: 43
         endBeat: 46
-365-22:
+schubert-365-22:
     -
         name: A
         start: 1/1
@@ -939,22 +1001,23 @@
     -
         name: A'
         start: 5/1
-        end: 8/2
+        end: 9/2
         startLine: 39
-        endLine: 60
+        endLine: 66
         startKey: B
         endKey: B
         startBeat: 12
-        endBeat: 22
+        endBeat: 25
     -
         name: B
         start: 9/3
-        end: 12/3.5
+        end: 12/3
         startLine: 70
-        endLine: null
+        endLine: 92
         startKey: g#
-        endKey: null
+        endKey: g#
         startBeat: 26
+        endBeat: 35
     -
         name: B'
         start: 13/1
@@ -965,7 +1028,7 @@
         endKey: g#
         startBeat: 36
         endBeat: 49
-365-23:
+schubert-365-23:
     -
         name: A
         start: 1/1
@@ -1006,7 +1069,7 @@
         endKey: B
         startBeat: 36
         endBeat: 46
-365-24:
+schubert-365-24:
     -
         name: A
         start: 1/1
@@ -1047,7 +1110,7 @@
         endKey: B
         startBeat: 36
         endBeat: 47
-365-25:
+schubert-365-25:
     -
         name: A
         start: 0/3
@@ -1088,7 +1151,7 @@
         endKey: E
         startBeat: 36
         endBeat: 47
-365-26:
+schubert-365-26:
     -
         name: A
         start: 0/3
@@ -1129,7 +1192,7 @@
         endKey: E
         startBeat: 37
         endBeat: 47
-365-27:
+schubert-365-27:
     -
         name: A
         start: 1/1
@@ -1170,7 +1233,7 @@
         endKey: E
         startBeat: 36
         endBeat: 46
-365-28:
+schubert-365-28:
     -
         name: A
         start: 0/3
@@ -1194,24 +1257,24 @@
     -
         name: B
         start: 8/3
-        end: 12/2
+        end: 12/3
         startLine: 57
-        endLine: 83
+        endLine: 86
         startKey: A
         endKey: A
         startBeat: 24
-        endBeat: 35
+        endBeat: 36
     -
         name: B'
-        start: 12/3
+        start: 13/1
         end: 16/2
-        startLine: 86
+        startLine: 89
         endLine: 111
         startKey: A
         endKey: A
-        startBeat: 36
+        startBeat: 37
         endBeat: 47
-365-29:
+schubert-365-29:
     -
         name: A
         start: 0/2.5
@@ -1255,15 +1318,15 @@
     -
         name: A''
         start: 16/2.5
-        end: 20/1
+        end: 20/2
         startLine: 94
-        endLine: 113
+        endLine: 114
         startKey: D
         endKey: D
         startBeat: 48
-        endBeat: 58.5
+        endBeat: 59.5
     -
-        name: A'''??????????
+        name: A'''???
         start: 20/2.5
         end: 24/1
         startLine: 115
@@ -1272,7 +1335,7 @@
         endKey: D
         startBeat: 60
         endBeat: 72
-365-30:
+schubert-365-30:
     -
         name: A
         start: 1/1
@@ -1306,14 +1369,14 @@
     -
         name: Coda
         start: 13/1
-        end: 16/2
+        end: 17/2
         startLine: 85
-        endLine: 106
+        endLine: 111
         startKey: A
         endKey: A
         startBeat: 36
-        endBeat: 46
-365-31:
+        endBeat: 49
+schubert-365-31:
     -
         name: A
         start: 1/1
@@ -1337,24 +1400,24 @@
     -
         name: B
         start: 9/1
-        end: 12/3
+        end: 14/3
         startLine: 72
-        endLine: 90
+        endLine: 103
         startKey: C
         endKey: C
         startBeat: 24
-        endBeat: 35
+        endBeat: 41
     -
         name: B'?
-        start: 13/1
-        end: 16/3
-        startLine: 94
-        endLine: 116
+        start: 15/1
+        end: 19/3
+        startLine: 107
+        endLine: 132
         startKey: C
         endKey: C
-        startBeat: 36
-        endBeat: 47
-365-32:
+        startBeat: 42
+        endBeat: 56
+schubert-365-32:
     -
         name: A
         start: 1/1
@@ -1408,14 +1471,14 @@
     -
         name: A'
         start: 21/1
-        end: 24/3
+        end: 24/2
         startLine: 135
-        endLine: 154
+        endLine: 153
         startKey: F
         endKey: F
         startBeat: 60
-        endBeat: 71
-365-33:
+        endBeat: 70
+schubert-365-33:
     -
         name: A
         start: 1/1
@@ -1496,7 +1559,7 @@
         endKey: F
         startBeat: 84
         endBeat: 95
-365-34:
+schubert-365-34:
     -
         name: Vorspiel
         start: 1/1
@@ -1547,7 +1610,7 @@
         endKey: F
         startBeat: 42
         endBeat: 53
-365-35:
+schubert-365-35:
     -
         name: A
         start: 1/1
@@ -1588,7 +1651,7 @@
         endKey: F
         startBeat: 36
         endBeat: 47
-365-36:
+schubert-365-36:
     -
         name: A
         start: 1/1
