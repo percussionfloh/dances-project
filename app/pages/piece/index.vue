@@ -24,7 +24,8 @@ const columns = [
             onClick: () => column.toggleSorting(column.getIsSorted() === 'asc'),
         });
     }, cell: ({ row }) => `${row.original.op} / ${row.original.nr}` },
-    { accessorKey: 'largerWorkTitle', header: t('title') },
+    { accessorKey: 'largerWorkTitle', header: t('largerWorkTitle') },
+    { accessorKey: 'title', header: t('title') },
     { accessorKey: 'key', header: ({ column }) => {
         const isSorted = column.getIsSorted();
         return h(UButton, {
@@ -68,16 +69,29 @@ const sorting = ref([
 
 const defaultFilters = {
     deg: null,
+    composer: null,
+    genre: null,
 };
 
 const filters = reactive({ ...defaultFilters });
 
 const filteredPieces = computed(() => {
     return data.value.filter(item => {
+        let matchDeg = true;
+        let matchComposer = true;
+        let matchGenre = true;
+
         if (filters.deg) {
-            return modulationsData.value.body[item.body.slug].map(i => i.deg).includes(filters.deg);
+            const mods = modulationsData.value?.body?.[item.body?.slug] ?? [];
+            matchDeg = mods.some(i => i.deg === filters.deg);
         }
-        return true;
+        if (filters.composer) {
+            matchComposer = item.composer === filters.composer;
+        }
+        if (filters.genre) {
+            matchGenre = item.genre === filters.genre;
+        }
+        return matchDeg && matchComposer && matchGenre;
     });
 });
 
@@ -85,6 +99,11 @@ const degItems = [...Object.values(modulationsData.value.body).reduce((acc, modu
 	modulations.forEach(mod => acc.add(mod.deg));
 	return acc;
 }, new Set())];
+
+
+const composerItems = [...new Set(data.value.map(p => p.composer))];
+
+const genreItems = [...new Set(data.value.map(p => p.genre))];
 
 function resetFilters() {
     for (const key in defaultFilters) {
@@ -98,8 +117,18 @@ function resetFilters() {
         <div class="flex flex-col gap-8">
             <Heading>Stücke</Heading>
             <div class="grid grid-cols-4 gap-4">
-                <USelect v-model="filters.deg" :items="degItems" class="w-full" />
-                <UButton @click="resetFilters">{{ $t('resetFilters') }}</UButton>
+                <UFormField :label="$t('deg')">
+                    <USelect v-model="filters.deg" :items="degItems" class="w-full" />
+                </UFormField>
+                <UFormField :label="$t('composer')">
+                    <USelect v-model="filters.composer" :items="composerItems" class="w-full" />
+                </UFormField>
+                <UFormField :label="$t('genre')">
+                    <USelect v-model="filters.genre" :items="genreItems" class="w-full" />
+                </UFormField>
+                <UFormField label="&nbsp;">
+                    <UButton @click="resetFilters">{{ $t('resetFilters') }}</UButton>
+                </UFormField>
             </div>
             <UTable v-model:sorting="sorting" :data="filteredPieces" :columns="columns" class="mt-8">
                 <template #audio-cell="{ row, cell, column }">

@@ -7,7 +7,16 @@ import { romanize } from '../app/utils/romanize.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const pathToKernScores = `${__dirname}/../schubert-dances/kern/`;
+const pathToKernScores = [
+    {
+        path: `${__dirname}/../schubert-dances/kern/`,
+        prefix: 'schubert-',
+    },
+    {
+        path: `${__dirname}/../gonzaga-dances/kern/`,
+        prefix: 'gonzaga-',
+    },
+];
 const formYamlPath = `${__dirname}/../content/raw-data/form.yaml`;
 const formContentYamlPath = `${__dirname}/../content/data/form.yaml`;
 
@@ -196,24 +205,25 @@ function addLineNumbersAsSpine(kern) {
     return lines.join('\n');
 }
 
-getFiles(pathToKernScores).forEach(file => {
-    const id = `schubert-${getIdFromFilename(file)}`;
-    const pieceForm = formYaml[id];
+for (const pathToKernScoreObj of pathToKernScores) {
+    getFiles(pathToKernScoreObj.path).forEach(file => {
+        const id = `${pathToKernScoreObj.prefix}${getIdFromFilename(file)}`;
+        const pieceForm = formYaml[id];
 
-    if (!pieceForm || pieceForm.length === 0) {
-        console.warn(`❌ No form found for ${id}`);
-        return;
-    }
-    
-    console.log(`✅ Form found for ${id}`);
+        if (!pieceForm || pieceForm.length === 0) {
+            console.warn(`❌ No form found for ${id}`);
+            return;
+        }
+        
+        console.log(`✅ Form found for ${id}`);
 
-    const kernScore = fs.readFileSync(file, 'utf8');
-    
-    const lnnrKernScore = addLineNumbersAsSpine(kernScore);
-    
-    const dataAsString = execSync(`beat -cp | beat -dp | beat -da --attacks 0 | meter -r | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`, {
-        input: lnnrKernScore,
-    }).toString().trim();
+        const kernScore = fs.readFileSync(file, 'utf8');
+        
+        const lnnrKernScore = addLineNumbersAsSpine(kernScore);
+        
+        const dataAsString = execSync(`beat -cp | beat -dp | beat -da --attacks 0 | meter -r | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`, {
+            input: lnnrKernScore,
+        }).toString().trim();
 
 /* exmaple output
 
@@ -245,19 +255,19 @@ spine 6 = slice (line) duration                      => beat -da --attacks 0
 
 */
 
-    const data = Object.fromEntries(dataAsString.split('\n').map(line => line.split('\t')).map((row) => {
-        const key = row[4]; // line number
+        const data = Object.fromEntries(dataAsString.split('\n').map(line => line.split('\t')).map((row) => {
+            const key = row[4]; // line number
 
-            const obj = {
-                sliceDuration: parseFloat(row[0]),
-                continuousBeat: parseFloat(row[1]),
-                leftHandMeter: row[2].replace('r', ''),
-                rightHandMeter: row[3].replace('r', ''),
-                sliceDurationAttacks0: parseFloat(row[5]),
-            };
+                const obj = {
+                    sliceDuration: parseFloat(row[0]),
+                    continuousBeat: parseFloat(row[1]),
+                    leftHandMeter: row[2].replace('r', ''),
+                    rightHandMeter: row[3].replace('r', ''),
+                    sliceDurationAttacks0: parseFloat(row[5]),
+                };
 
-            return [key, obj];
-    }));
+                return [key, obj];
+        }));
 
 /* example output
 
@@ -295,15 +305,16 @@ spine 6 = slice (line) duration                      => beat -da --attacks 0
 
 */
 
-    const kernLines = kernScore.split('\n');
+        const kernLines = kernScore.split('\n');
 
-    formData[id] = [];
+        formData[id] = [];
 
-    pieceForm.forEach((formPart) => {
-        const parsedFormPart = getParsedFormPart(formPart, kernLines, data);
-        formData[id].push(parsedFormPart)
+        pieceForm.forEach((formPart) => {
+            const parsedFormPart = getParsedFormPart(formPart, kernLines, data);
+            formData[id].push(parsedFormPart)
+        });
     });
-});
+}
 
 
 

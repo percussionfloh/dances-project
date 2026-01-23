@@ -4,7 +4,7 @@ pieces: Stücke
 opNr: Op. / №
 title: Titel
 key: Tonart
-composer: Komponist
+composer: Komponist:in
 view: Ansehen
 vhv: VHV
 majorMinor: Tongeschlecht
@@ -43,3 +43,5 @@ specialChords: Besondere Akkorde
 cadences: Kadenzen
 form: Form
 statistics: Statistiken
+deg: Stufe
+genre: Genre

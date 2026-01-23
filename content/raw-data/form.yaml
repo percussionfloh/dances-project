@@ -777,3 +777,514 @@ schubert-365-36:
     -   name: D
         start: 13/1  
         end: 16/1
+
+gonzaga-agua-do-vintem:
+    -   name: A
+        start: 0/2.25
+        end: 8/1.5
+
+    -   name: B
+        start: 8/2.25
+        end: 24/1.75
+    
+    -   name: A
+        start: 24/2.25
+        end: 32/2
+
+    -   name: Trio
+        start: 33/1
+        end: 52/1.5
+
+gonzaga-alegre-se-viuva:
+    -   name: Intro
+        start: 0/1.5
+        end: 1/1
+
+    -   name: A
+        start: 1/1.5
+        end: 12/2.5
+
+    -   name: B
+        start: 13/1
+        end: 24/1
+
+    -   name: A
+        start: 24/2.5
+        end: 35/2.5
+
+    -   name: Trio A
+        start: 36/1
+        end: 43/1
+
+    -   name: Trio B
+        start: 43/2
+        end: 54/1
+
+
+gonzaga-anga:
+    -   name: A
+        start: 0/2.5
+        end: 16/2
+
+    -   name: B
+        start: 16/2
+        end: 32/1.5
+
+    -   name: A
+        start: 32/2.5
+        end: 48/2
+
+    -   name: Trio
+        start: 49/1
+        end: 63/2
+      
+gonzaga-bijou:
+    -   name: Intro
+        start: 1/1
+        end: 12/2
+
+    -   name: A
+        start: 13/1
+        end: 29/2
+
+    -   name: A
+        start: 30/1
+        end: 62/2
+
+gonzaga-bionne:
+    -   name: A
+        start: 0/2.25
+        end: 16/1.5
+
+    -   name: B
+        start: 16/2.25
+        end: 32/1.5
+
+    -   name: A
+        start: 32/2.5
+        end: 48/1.5
+
+    -   name: Trio
+        start: 49/1
+        end: 66/1
+
+gonzaga-carijo:
+    -   name: Intro
+        start: 1/2.5
+        end: 5/2.5
+
+    -   name: A
+        start: 6/1
+        end: 22/2
+
+    -   name: A
+        start: 23/1
+        end: 32/2
+
+gonzaga-choro:
+    -   name: Intro
+        start: 1/1
+        end: 8/1
+
+    -   name: A
+        start: 8/1.75
+        end: 24/1.5
+
+    -   name: A
+        start: 24/2.5
+        end: 40/1.5
+
+gonzaga-ainda-nao-morreu:
+    -   name: Intro
+        start: 1/1
+        end: 9/1
+
+    -   name: A
+        start: 9/2.25
+        end: 25/2
+
+    -   name: B
+        start: 25/2.25
+        end: 33/1
+
+    -   name: A
+        start: 33/2.25
+        end: 49/2
+
+    -   name: C
+        start: 50/1
+        end: 58/2
+
+gonzaga-evoe:
+    -   name: Intro
+        start: 0/2.5
+        end: 13/1
+
+    -   name: A
+        start: 13/2.25
+        end: 22/2
+
+    -   name: B
+        start: 22/2.5
+        end: 38/1
+
+gonzaga-faceiro:
+    -   name: A
+        start: 1/1
+        end: 17/1
+
+    -   name: B
+        start: 18/1
+        end: 33/2.75
+
+    -   name: A
+        start: 34/1 
+        end: 49/2
+
+    -   name: Trio
+        start: 50/1
+        end: 66/2
+
+gonzaga-gaucho:
+    -   name: A
+        start: 1/1
+        end: 24/2
+
+    -   name: B
+        start: 25/2.5
+        end: 44/2
+
+gonzaga-julia:
+    -   name: A
+        start: 1/1
+        end: 16/2.5
+
+    -   name: B
+        start: 17/1
+        end: 32/2
+
+    -   name: A
+        start: 33/1
+        end: 48/2.5
+
+    -   name: Trio
+        start: 49/1
+        end: 64/2
+
+gonzaga-linda-morena:
+    -   name: A
+        start: 1/1
+        end: 11/2
+
+    -   name: B
+        start: 12/1
+        end: 22/2
+
+    -   name: Trio
+        start: 23/1
+        end: 40/2
+
+gonzaga-o-diabinho:
+    -   name: Intro
+        start: 1/1
+        end: 2/2.5
+    
+    -   name: A
+        start: 1/1
+        end: 18/2
+
+    -   name: B
+        start: 19/1
+        end: 34/2
+
+    -   name: Intro
+        start: 35/1
+        end: 36/2.5
+
+    -   name: A
+        start: 37/1
+        end: 52/2
+
+    -   name: B
+        start: 53/1
+        end: 68/2
+
+gonzaga-o-jagunco:
+    -   name: Intro
+        start: 1/1
+        end: 4/1
+
+    -   name: A
+        start: 5/1
+        end: 20/1
+
+    -   name: Outro=Intro
+        start: 20/1.5
+        end: 24/2
+
+    -   name: A
+        start: 25/1
+        end: 44/2
+
+gonzaga-saci-perere:
+    -   name: A
+        start: 1/1
+        end: 20/1.5
+
+    -   name: B
+        start: 20/2.25
+        end: 37/2
+
+    -   name: C
+        start: 37/2.25
+        end: 44/2
+
+    -   name: Trio
+        start: 44/2.25
+        end: 60/2
+
+gonzaga-sao-paolo:
+    -   name: Intro
+        start: 1/1
+        end: 8/1
+
+    -   name: A
+        start: 8/2.5
+        end: 25/2
+
+    -   name: B
+        start: 26/1
+        end: 42/2
+
+    -   name: C
+        start: 43/1
+        end: 50/2
+
+    -   name: A
+        start: 50/2.
+        end: 66/2.25
+
+    -   name: Trio
+        start: 66/2.5
+        end: 84/2
+        
+gonzaga-sedutor:
+    -   name: Intro
+        start: 0/2.75
+        end: 6/1
+
+    -   name: A
+        start: 6/1.75
+        end: 23/1
+
+    -   name: B
+        start: 23/1.75
+        end: 55/1
+
+gonzaga-so-na-flauta:
+    -   name: Intro
+        start: 1/1
+        end: 3/1
+
+    -   name: A
+        start: 4/1.25
+        end: 20/1
+
+    -   name: B
+        start: 20/1.75
+        end: 36/2
+
+gonzaga-so-no-choro:
+    -   name: A
+        start: 0/2.75
+        end: 9/2
+
+    -   name: B
+        start: 9/2.75
+        end: 25/2.25
+
+    -   name: A
+        start: 25/2.75
+        end: 34/2
+
+    -   name: C
+        start: 34/2.75
+        end: 51/2
+
+    -   name: A
+        start: 51/2.75
+        end: 60/2
+
+gonzaga-suspiro:
+    -   name: intro
+        start: 1/1
+        end: 4/1
+
+    -   name: A
+        start: 5/1
+        end: 20/2.5
+
+    -   name: B
+        start: 21/1
+        end: 36/2.5
+
+    -   name: Interlude
+        start: 37/1
+        end: 44/1
+
+    -   name: Trio
+        start: 44/2
+        end: 60/1
+
+    -   name: A
+        start: 61/2.5
+        end: 76/2
+
+gonzaga-tambyquerere:
+    -   name: A
+        start: 1/1
+        end: 16/1.5
+
+    -   name: B
+        start: 16/2.25
+        end: 32/1
+
+    -   name: Interlude
+        start: 32/2.5
+        end: 34/2
+
+    -   name: A
+        start: 35/1
+        end: 50/2
+
+    -   name: Trio
+        start: 51/1
+        end: 82/1
+
+    -   name: Interlude
+        start: 82/2.5
+        end: 84/2
+
+gonzaga-tango-alguma:
+    -   name: A
+        start: 1/1
+        end: 9/2.
+
+    -   name: B
+        start: 5/1
+        end: 25/2
+
+    -   name: A
+        start: 26/1
+        end: 34/1.5
+
+gonzaga-tango-brasileiro:
+    -   name: Intro
+        start: 1/1
+        end: 4/2.75
+
+    -   name: A
+        start: 5/1
+        end: 20/2.75
+    
+    -   name: Interlude
+        start: 21/1
+        end: 24/2
+
+    -   name: A
+        start: 25/1
+        end: 40/2
+
+gonzaga-tango-caracteristico:
+    -   name: A
+        start: 1/1
+        end: 18/2
+
+    -   name: B
+        start: 19/1
+        end: 34/1
+
+    -   name: A
+        start: 35/1
+        end: 52/2
+
+    -   name: B
+        start: 53/1
+        end: 68/2
+
+gonzaga-tango:
+    -   name: A
+        start: 1/1
+        end: 8/1
+
+    -   name: B
+        start: 8/2
+        end: 24/2
+
+    -   name: A
+        start: 25/1
+        end: 32/2
+
+gonzaga-tim-tim:
+    -   name: Intro
+        start: 1/1
+        end: 16/1
+
+    -   name: A
+        start: 16/2
+        end: 32/1
+
+    -   name: B
+        start: 32/2
+        end: 39/1
+
+gonzaga-tupa:
+    -   name: A
+        start: 1/1
+        end: 17/1
+
+    -   name: B
+        start: 17/1.25
+        end: 33/1
+
+    -   name: A
+        start: 33/1.25
+        end: 49/1
+
+    -   name: C
+        start: 49/1.75
+        end: 65/2
+
+gonzaga-xi:
+    -   name: Intro
+        start: 1/1
+        end: 8/1
+
+    -   name: A
+        start: 9/1    
+        end: 25/1
+
+    -   name: B
+        start: 26/1
+        end: 41/2.5
+
+    -   name: A
+        start: 42/1
+        end: 57/2
+
+gonzaga-yo-te-adoro:
+    -   name: Intro
+        start: 1/1
+        end: 9/1
+
+    -   name: A
+        start: 10/1    
+        end: 25/2.5
+
+    -   name: B
+        start: 26/1
+        end: 41/1
+
+    -   name: A
+        start: 42/1
+        end: 57/1

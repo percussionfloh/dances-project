@@ -3,7 +3,7 @@ import { fileURLToPath } from 'node:url';
 
 function resolveCorelliTrioSonatasSha() {
     try {
-        return execSync(`git rev-parse --short=7 HEAD:corelli-trio-sonatas`, { encoding: 'utf8' }).toString().trim();
+        return execSync(`git rev-parse --short=7 HEAD:dances-project`, { encoding: 'utf8' }).toString().trim();
     } catch {
         return '';
     }
@@ -48,6 +48,11 @@ export default defineNuxtConfig({
             {
                 baseURL: 'kern/schubert-dances',
                 dir: fileURLToPath(new URL('./schubert-dances/kern', import.meta.url)),
+                maxAge: 3600,
+            },
+            {
+                baseURL: 'kern/gonzaga-dances',
+                dir: fileURLToPath(new URL('./gonzaga-dances/kern', import.meta.url)),
                 maxAge: 3600,
             },
         ],

@@ -1692,3 +1692,1223 @@ schubert-365-36:
         endKey: F
         startBeat: 36
         endBeat: 45
+gonzaga-agua-do-vintem:
+    -
+        name: A
+        start: 0/2.25
+        end: 8/1.5
+        startLine: 21
+        endLine: 89
+        startKey: F
+        endKey: d
+        startBeat: 2
+        endBeat: 17.25
+    -
+        name: B
+        start: 8/2.25
+        end: 24/1.75
+        startLine: 92
+        endLine: 234
+        startKey: d
+        endKey: F
+        startBeat: 18
+        endBeat: 49.5
+    -
+        name: A
+        start: 24/2.25
+        end: 32/2
+        startLine: 236
+        endLine: 306
+        startKey: F
+        endKey: B-
+        startBeat: 50
+        endBeat: 65.75
+    -
+        name: Trio
+        start: 33/1
+        end: 52/1.5
+        startLine: 310
+        endLine: 457
+        startKey: B-
+        endKey: F
+        startBeat: 66.75
+        endBeat: 105.25
+gonzaga-ainda-nao-morreu:
+    -
+        name: Intro
+        start: 1/1
+        end: 9/1
+        startLine: 12
+        endLine: 80
+        startKey: E-
+        endKey: E-
+        startBeat: 0
+        endBeat: 16
+    -
+        name: A
+        start: 9/2.25
+        end: 25/2
+        startLine: 83
+        endLine: 221
+        startKey: E-
+        endKey: E-
+        startBeat: 17.25
+        endBeat: 49
+    -
+        name: B
+        start: 25/2.25
+        end: 33/1
+        startLine: 222
+        endLine: 286
+        startKey: E-
+        endKey: E-
+        startBeat: 49.25
+        endBeat: 64
+    -
+        name: A
+        start: 33/2.25
+        end: 49/2
+        startLine: 289
+        endLine: 426
+        startKey: E-
+        endKey: E-
+        startBeat: 65.25
+        endBeat: 97
+    -
+        name: C
+        start: 50/1
+        end: 58/2
+        startLine: 432
+        endLine: 484
+        startKey: c
+        endKey: c
+        startBeat: 98
+        endBeat: 115
+gonzaga-alegre-se-viuva:
+    -
+        name: Intro
+        start: 0/1.5
+        end: 1/1
+        startLine: null
+        endLine: 19
+        startKey: null
+        endKey: C
+        endBeat: 2.5
+    -
+        name: A
+        start: 1/1.5
+        end: 12/2.5
+        startLine: 20
+        endLine: null
+        startKey: C
+        endKey: null
+        startBeat: 3
+    -
+        name: B
+        start: 13/1
+        end: 24/1
+        startLine: 93
+        endLine: 172
+        startKey: C
+        endKey: a
+        startBeat: 26.5
+        endBeat: 48.5
+    -
+        name: A
+        start: 24/2.5
+        end: 35/2.5
+        startLine: 178
+        endLine: 251
+        startKey: a
+        endKey: a
+        startBeat: 50
+        endBeat: 72
+    -
+        name: Trio A
+        start: 36/1
+        end: 43/1
+        startLine: 253
+        endLine: 299
+        startKey: a
+        endKey: a
+        startBeat: 72.5
+        endBeat: 86.5
+    -
+        name: Trio B
+        start: 43/2
+        end: 54/1
+        startLine: 301
+        endLine: 369
+        startKey: a
+        endKey: F
+        startBeat: 87.5
+        endBeat: 108.5
+gonzaga-anga:
+    -
+        name: A
+        start: 0/2.5
+        end: 16/2
+        startLine: 19
+        endLine: 130
+        startKey: C
+        endKey: G
+        startBeat: 2.5
+        endBeat: 34
+    -
+        name: B
+        start: 16/2
+        end: 32/1.5
+        startLine: 130
+        endLine: null
+        startKey: G
+        endKey: null
+        startBeat: 34
+    -
+        name: A
+        start: 32/2.5
+        end: 48/2
+        startLine: 248
+        endLine: 359
+        startKey: C
+        endKey: F
+        startBeat: 66.5
+        endBeat: 98
+    -
+        name: Trio
+        start: 49/1
+        end: 63/2
+        startLine: 362
+        endLine: 452
+        startKey: F
+        endKey: F
+        startBeat: 99
+        endBeat: 128
+gonzaga-bijou:
+    -
+        name: Intro
+        start: 1/1
+        end: 12/2
+        startLine: 13
+        endLine: 100
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 23
+    -
+        name: A
+        start: 13/1
+        end: 29/2
+        startLine: 102
+        endLine: 208
+        startKey: F
+        endKey: F
+        startBeat: 24
+        endBeat: 57
+    -
+        name: A
+        start: 30/1
+        end: 62/2
+        startLine: 214
+        endLine: 428
+        startKey: B-
+        endKey: B-
+        startBeat: 58
+        endBeat: 123
+gonzaga-bionne:
+    -
+        name: A
+        start: 0/2.25
+        end: 16/1.5
+        startLine: 21
+        endLine: 157
+        startKey: C
+        endKey: F
+        startBeat: 2
+        endBeat: 33.25
+    -
+        name: B
+        start: 16/2.25
+        end: 32/1.5
+        startLine: 160
+        endLine: 296
+        startKey: F
+        endKey: C
+        startBeat: 34
+        endBeat: 65.25
+    -
+        name: A
+        start: 32/2.5
+        end: 48/1.5
+        startLine: 300
+        endLine: 431
+        startKey: C
+        endKey: F
+        startBeat: 66.25
+        endBeat: 97.25
+    -
+        name: Trio
+        start: 49/1
+        end: 66/1
+        startLine: 436
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 98.75
+gonzaga-carijo:
+    -
+        name: Intro
+        start: 1/2.5
+        end: 5/2.5
+        startLine: 14
+        endLine: 32
+        startKey: b-
+        endKey: b-
+        startBeat: 1.5
+        endBeat: 9.5
+    -
+        name: A
+        start: 6/1
+        end: 22/2
+        startLine: 34
+        endLine: 159
+        startKey: b-
+        endKey: D-
+        startBeat: 10
+        endBeat: 43
+    -
+        name: A
+        start: 23/1
+        end: 32/2
+        startLine: 161
+        endLine: 236
+        startKey: D-
+        endKey: b-
+        startBeat: 44
+        endBeat: 63
+gonzaga-choro:
+    -
+        name: Intro
+        start: 1/1
+        end: 8/1
+        startLine: 12
+        endLine: 58
+        startKey: E-
+        endKey: E-
+        startBeat: 0
+        endBeat: 14
+    -
+        name: A
+        start: 8/1.75
+        end: 24/1.5
+        startLine: 60
+        endLine: null
+        startKey: E-
+        endKey: null
+        startBeat: 14.75
+    -
+        name: A
+        start: 24/2.5
+        end: 40/1.5
+        startLine: 197
+        endLine: null
+        startKey: A-
+        endKey: null
+        startBeat: 50
+gonzaga-evoe:
+    -
+        name: Intro
+        start: 0/2.5
+        end: 13/1
+        startLine: 19
+        endLine: 108
+        startKey: C
+        endKey: C
+        startBeat: 2
+        endBeat: 26.5
+    -
+        name: A
+        start: 13/2.25
+        end: 22/2
+        startLine: 113
+        endLine: 189
+        startKey: C
+        endKey: F
+        startBeat: 27.75
+        endBeat: 45.5
+    -
+        name: B
+        start: 22/2.5
+        end: 38/1
+        startLine: 191
+        endLine: null
+        startKey: F
+        endKey: null
+        startBeat: 46
+gonzaga-faceiro:
+    -
+        name: A
+        start: 1/1
+        end: 17/1
+        startLine: 13
+        endLine: 130
+        startKey: F
+        endKey: C
+        startBeat: 0
+        endBeat: 32
+    -
+        name: B
+        start: 18/1
+        end: 33/2.75
+        startLine: 138
+        endLine: 249
+        startKey: C
+        endKey: C
+        startBeat: 34
+        endBeat: 65.75
+    -
+        name: A
+        start: 34/1
+        end: 49/2
+        startLine: 253
+        endLine: 362
+        startKey: F
+        endKey: F
+        startBeat: 66
+        endBeat: 97
+    -
+        name: Trio
+        start: 50/1
+        end: 66/2
+        startLine: 368
+        endLine: null
+        startKey: B-
+        endKey: null
+        startBeat: 98
+gonzaga-gaucho:
+    -
+        name: A
+        start: 1/1
+        end: 24/2
+        startLine: 13
+        endLine: 200
+        startKey: d
+        endKey: d
+        startBeat: 0
+        endBeat: 47
+    -
+        name: B
+        start: 25/2.5
+        end: 44/2
+        startLine: 209
+        endLine: 338
+        startKey: F
+        endKey: d
+        startBeat: 49.5
+        endBeat: 87
+gonzaga-julia:
+    -
+        name: A
+        start: 1/1
+        end: 16/2.5
+        startLine: 12
+        endLine: 116
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 31.5
+    -
+        name: B
+        start: 17/1
+        end: 32/2
+        startLine: 120
+        endLine: 219
+        startKey: d
+        endKey: F
+        startBeat: 32
+        endBeat: 63
+    -
+        name: A
+        start: 33/1
+        end: 48/2.5
+        startLine: 222
+        endLine: 327
+        startKey: F
+        endKey: F
+        startBeat: 64
+        endBeat: 95.5
+    -
+        name: Trio
+        start: 49/1
+        end: 64/2
+        startLine: 331
+        endLine: 436
+        startKey: B-
+        endKey: B-
+        startBeat: 96
+        endBeat: 127
+gonzaga-linda-morena:
+    -
+        name: A
+        start: 1/1
+        end: 11/2
+        startLine: 13
+        endLine: 77
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 21
+    -
+        name: B
+        start: 12/1
+        end: 22/2
+        startLine: 81
+        endLine: 155
+        startKey: D
+        endKey: D
+        startBeat: 22
+        endBeat: 43
+    -
+        name: Trio
+        start: 23/1
+        end: 40/2
+        startLine: 158
+        endLine: 272
+        startKey: G
+        endKey: G
+        startBeat: 44
+        endBeat: 79
+gonzaga-o-diabinho:
+    -
+        name: Intro
+        start: 1/1
+        end: 2/2.5
+        startLine: 12
+        endLine: 23
+        startKey: B-
+        endKey: B-
+        startBeat: 0
+        endBeat: 3.5
+    -
+        name: A
+        start: 1/1
+        end: 18/2
+        startLine: 12
+        endLine: 140
+        startKey: B-
+        endKey: B-
+        startBeat: 0
+        endBeat: 35
+    -
+        name: B
+        start: 19/1
+        end: 34/2
+        startLine: 145
+        endLine: 251
+        startKey: E-
+        endKey: E-
+        startBeat: 36
+        endBeat: 67
+    -
+        name: Intro
+        start: 35/1
+        end: 36/2.5
+        startLine: 254
+        endLine: 264
+        startKey: B-
+        endKey: B-
+        startBeat: 68
+        endBeat: 71.5
+    -
+        name: A
+        start: 37/1
+        end: 52/2
+        startLine: 267
+        endLine: 381
+        startKey: B-
+        endKey: B-
+        startBeat: 72
+        endBeat: 103
+    -
+        name: B
+        start: 53/1
+        end: 68/2
+        startLine: 385
+        endLine: 506
+        startKey: E-
+        endKey: E-
+        startBeat: 104
+        endBeat: 135
+gonzaga-o-jagunco:
+    -
+        name: Intro
+        start: 1/1
+        end: 4/1
+        startLine: 14
+        endLine: 35
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 6
+    -
+        name: A
+        start: 5/1
+        end: 20/1
+        startLine: 41
+        endLine: 176
+        startKey: F
+        endKey: F
+        startBeat: 8
+        endBeat: 38
+    -
+        name: Outro=Intro
+        start: 20/1.5
+        end: 24/2
+        startLine: 177
+        endLine: 207
+        startKey: F
+        endKey: F
+        startBeat: 38.5
+        endBeat: 47
+    -
+        name: A
+        start: 25/1
+        end: 44/2
+        startLine: 213
+        endLine: 368
+        startKey: C
+        endKey: C
+        startBeat: 48
+        endBeat: 87
+gonzaga-saci-perere:
+    -
+        name: A
+        start: 1/1
+        end: 20/1.5
+        startLine: 12
+        endLine: 185
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 38.5
+    -
+        name: B
+        start: 20/2.25
+        end: 37/2
+        startLine: 187
+        endLine: 343
+        startKey: C
+        endKey: G
+        startBeat: 39.25
+        endBeat: 73
+    -
+        name: C
+        start: 37/2.25
+        end: 44/2
+        startLine: 344
+        endLine: 408
+        startKey: G
+        endKey: G
+        startBeat: 73.25
+        endBeat: 87
+    -
+        name: Trio
+        start: 44/2.25
+        end: 60/2
+        startLine: 409
+        endLine: 558
+        startKey: G
+        endKey: F
+        startBeat: 87.25
+        endBeat: 119
+gonzaga-sao-paolo:
+    -
+        name: Intro
+        start: 1/1
+        end: 8/1
+        startLine: 12
+        endLine: 56
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 14
+    -
+        name: A
+        start: 8/2.5
+        end: 25/2
+        startLine: 58
+        endLine: 184
+        startKey: F
+        endKey: F
+        startBeat: 15.5
+        endBeat: 49
+    -
+        name: B
+        start: 26/1
+        end: 42/2
+        startLine: 189
+        endLine: 304
+        startKey: C
+        endKey: C
+        startBeat: 50
+        endBeat: 83
+    -
+        name: C
+        start: 43/1
+        end: 50/2
+        startLine: 309
+        endLine: 354
+        startKey: F
+        endKey: F
+        startBeat: 84
+        endBeat: 99
+    -
+        name: A
+        start: 50/2.
+        end: 66/2.25
+        startLine: 354
+        endLine: 474
+        startKey: F
+        endKey: F
+        startBeat: 99
+        endBeat: 131.25
+    -
+        name: Trio
+        start: 66/2.5
+        end: 84/2
+        startLine: 475
+        endLine: 611
+        startKey: F
+        endKey: B-
+        startBeat: 131.5
+        endBeat: 167
+gonzaga-sedutor:
+    -
+        name: Intro
+        start: 0/2.75
+        end: 6/1
+        startLine: 22
+        endLine: 53
+        startKey: F
+        endKey: F
+        startBeat: 2
+        endBeat: 12.25
+    -
+        name: A
+        start: 6/1.75
+        end: 23/1
+        startLine: 54
+        endLine: 185
+        startKey: F
+        endKey: d
+        startBeat: 13
+        endBeat: 46.25
+    -
+        name: B
+        start: 23/1.75
+        end: 55/1
+        startLine: 187
+        endLine: 432
+        startKey: d
+        endKey: F
+        startBeat: 47
+        endBeat: 110.25
+gonzaga-so-na-flauta:
+    -
+        name: Intro
+        start: 1/1
+        end: 3/1
+        startLine: 13
+        endLine: 27
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 4
+    -
+        name: A
+        start: 4/1.25
+        end: 20/1
+        startLine: 34
+        endLine: 159
+        startKey: F
+        endKey: F
+        startBeat: 6.25
+        endBeat: 38
+    -
+        name: B
+        start: 20/1.75
+        end: 36/2
+        startLine: 161
+        endLine: 282
+        startKey: F
+        endKey: B-
+        startBeat: 38.75
+        endBeat: 71
+gonzaga-so-no-choro:
+    -
+        name: A
+        start: 0/2.75
+        end: 9/2
+        startLine: 12
+        endLine: 97
+        startKey: G
+        endKey: G
+        startBeat: 0
+        endBeat: 21.75
+    -
+        name: B
+        start: 9/2.75
+        end: 25/2.25
+        startLine: 99
+        endLine: 213
+        startKey: G
+        endKey: D
+        startBeat: 22.5
+        endBeat: 54
+    -
+        name: A
+        start: 25/2.75
+        end: 34/2
+        startLine: 215
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 54.5
+    -
+        name: C
+        start: 34/2.75
+        end: 51/2
+        startLine: 279
+        endLine: 394
+        startKey: G
+        endKey: D
+        startBeat: 72.5
+        endBeat: 105.75
+    -
+        name: A
+        start: 51/2.75
+        end: 60/2
+        startLine: 397
+        endLine: null
+        startKey: D
+        endKey: null
+        startBeat: 106.5
+gonzaga-suspiro:
+    -
+        name: intro
+        start: 1/1
+        end: 4/1
+        startLine: 12
+        endLine: 18
+        startKey: f
+        endKey: f
+        startBeat: 0
+        endBeat: 6
+    -
+        name: A
+        start: 5/1
+        end: 20/2.5
+        startLine: 23
+        endLine: 140
+        startKey: f
+        endKey: f
+        startBeat: 8
+        endBeat: 39.5
+    -
+        name: B
+        start: 21/1
+        end: 36/2.5
+        startLine: 144
+        endLine: 227
+        startKey: b-
+        endKey: D-
+        startBeat: 40
+        endBeat: 71.5
+    -
+        name: Interlude
+        start: 37/1
+        end: 44/1
+        startLine: 231
+        endLine: 270
+        startKey: b-
+        endKey: F
+        startBeat: 72
+        endBeat: 86
+    -
+        name: Trio
+        start: 44/2
+        end: 60/1
+        startLine: 271
+        endLine: 354
+        startKey: F
+        endKey: b-
+        startBeat: 87
+        endBeat: 118
+    -
+        name: A
+        start: 61/2.5
+        end: 76/2
+        startLine: 363
+        endLine: 475
+        startKey: f
+        endKey: f
+        startBeat: 121.5
+        endBeat: 151
+gonzaga-tambyquerere:
+    -
+        name: A
+        start: 1/1
+        end: 16/1.5
+        startLine: 12
+        endLine: 130
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 30.5
+    -
+        name: B
+        start: 16/2.25
+        end: 32/1
+        startLine: 133
+        endLine: 265
+        startKey: C
+        endKey: C
+        startBeat: 31.25
+        endBeat: 62
+    -
+        name: Interlude
+        start: 32/2.5
+        end: 34/2
+        startLine: 267
+        endLine: 278
+        startKey: C
+        endKey: F
+        startBeat: 63.5
+        endBeat: 67
+    -
+        name: A
+        start: 35/1
+        end: 50/2
+        startLine: 281
+        endLine: 401
+        startKey: F
+        endKey: B-
+        startBeat: 68
+        endBeat: 99
+    -
+        name: Trio
+        start: 51/1
+        end: 82/1
+        startLine: 404
+        endLine: 634
+        startKey: B-
+        endKey: B-
+        startBeat: 100
+        endBeat: 162
+    -
+        name: Interlude
+        start: 82/2.5
+        end: 84/2
+        startLine: 637
+        endLine: 647
+        startKey: F
+        endKey: F
+        startBeat: 163.5
+        endBeat: 167
+gonzaga-tango-alguma:
+    -
+        name: A
+        start: 1/1
+        end: 9/2.
+        startLine: 14
+        endLine: 81
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 17
+    -
+        name: B
+        start: 5/1
+        end: 25/2
+        startLine: 47
+        endLine: 196
+        startKey: F
+        endKey: f
+        startBeat: 8
+        endBeat: 49
+    -
+        name: A
+        start: 26/1
+        end: 34/1.5
+        startLine: 203
+        endLine: 269
+        startKey: F
+        endKey: F
+        startBeat: 50
+        endBeat: 66.5
+gonzaga-tango-brasileiro:
+    -
+        name: Intro
+        start: 1/1
+        end: 4/2.75
+        startLine: 12
+        endLine: 38
+        startKey: c
+        endKey: c
+        startBeat: 0
+        endBeat: 7.75
+    -
+        name: A
+        start: 5/1
+        end: 20/2.75
+        startLine: 40
+        endLine: 146
+        startKey: c
+        endKey: c
+        startBeat: 8
+        endBeat: 39.75
+    -
+        name: Interlude
+        start: 21/1
+        end: 24/2
+        startLine: 148
+        endLine: 171
+        startKey: c
+        endKey: c
+        startBeat: 40
+        endBeat: 47
+    -
+        name: A
+        start: 25/1
+        end: 40/2
+        startLine: 174
+        endLine: 276
+        startKey: E-
+        endKey: E-
+        startBeat: 48
+        endBeat: 79
+gonzaga-tango-caracteristico:
+    -
+        name: A
+        start: 1/1
+        end: 18/2
+        startLine: 12
+        endLine: 140
+        startKey: D
+        endKey: D
+        startBeat: 0
+        endBeat: 35
+    -
+        name: B
+        start: 19/1
+        end: 34/1
+        startLine: 147
+        endLine: 248
+        startKey: G
+        endKey: G
+        startBeat: 36
+        endBeat: 66
+    -
+        name: A
+        start: 35/1
+        end: 52/2
+        startLine: 254
+        endLine: 381
+        startKey: D
+        endKey: D
+        startBeat: 68
+        endBeat: 103
+    -
+        name: B
+        start: 53/1
+        end: 68/2
+        startLine: 385
+        endLine: 492
+        startKey: G
+        endKey: G
+        startBeat: 104
+        endBeat: 135
+gonzaga-tango:
+    -
+        name: A
+        start: 1/1
+        end: 8/1
+        startLine: 13
+        endLine: 59
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 14
+    -
+        name: B
+        start: 8/2
+        end: 24/2
+        startLine: 61
+        endLine: 187
+        startKey: F
+        endKey: F
+        startBeat: 15
+        endBeat: 47
+    -
+        name: A
+        start: 25/1
+        end: 32/2
+        startLine: 192
+        endLine: 240
+        startKey: F
+        endKey: F
+        startBeat: 48
+        endBeat: 63
+gonzaga-tim-tim:
+    -
+        name: Intro
+        start: 1/1
+        end: 16/1
+        startLine: 13
+        endLine: 97
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 30
+    -
+        name: A
+        start: 16/2
+        end: 32/1
+        startLine: 101
+        endLine: 201
+        startKey: F
+        endKey: F
+        startBeat: 31
+        endBeat: 62
+    -
+        name: B
+        start: 32/2
+        end: 39/1
+        startLine: 203
+        endLine: 253
+        startKey: F
+        endKey: d
+        startBeat: 63
+        endBeat: 76
+gonzaga-tupa:
+    -
+        name: A
+        start: 1/1
+        end: 17/1
+        startLine: 12
+        endLine: 139
+        startKey: G
+        endKey: C
+        startBeat: 0
+        endBeat: 32
+    -
+        name: B
+        start: 17/1.25
+        end: 33/1
+        startLine: 140
+        endLine: 270
+        startKey: C
+        endKey: C
+        startBeat: 32.25
+        endBeat: 64
+    -
+        name: A
+        start: 33/1.25
+        end: 49/1
+        startLine: 271
+        endLine: 399
+        startKey: C
+        endKey: G
+        startBeat: 64.25
+        endBeat: 96
+    -
+        name: C
+        start: 49/1.75
+        end: 65/2
+        startLine: 400
+        endLine: 519
+        startKey: G
+        endKey: C
+        startBeat: 96.75
+        endBeat: 129
+gonzaga-xi:
+    -
+        name: Intro
+        start: 1/1
+        end: 8/1
+        startLine: 13
+        endLine: 54
+        startKey: C
+        endKey: C
+        startBeat: 0
+        endBeat: 14
+    -
+        name: A
+        start: 9/1
+        end: 25/1
+        startLine: 60
+        endLine: 180
+        startKey: C
+        endKey: C
+        startBeat: 16
+        endBeat: 48
+    -
+        name: B
+        start: 26/1
+        end: 41/2.5
+        startLine: 186
+        endLine: 284
+        startKey: F
+        endKey: F
+        startBeat: 50
+        endBeat: 81.5
+    -
+        name: A
+        start: 42/1
+        end: 57/2
+        startLine: 287
+        endLine: 403
+        startKey: F
+        endKey: F
+        startBeat: 82
+        endBeat: 113
+gonzaga-yo-te-adoro:
+    -
+        name: Intro
+        start: 1/1
+        end: 9/1
+        startLine: 13
+        endLine: 48
+        startKey: F
+        endKey: F
+        startBeat: 0
+        endBeat: 16
+    -
+        name: A
+        start: 10/1
+        end: 25/2.5
+        startLine: 53
+        endLine: 148
+        startKey: F
+        endKey: F
+        startBeat: 18
+        endBeat: 49.5
+    -
+        name: B
+        start: 26/1
+        end: 41/1
+        startLine: 151
+        endLine: 242
+        startKey: d
+        endKey: d
+        startBeat: 50
+        endBeat: 80
+    -
+        name: A
+        start: 42/1
+        end: 57/1
+        startLine: 246
+        endLine: 338
+        startKey: F
+        endKey: F
+        startBeat: 82
+        endBeat: 112

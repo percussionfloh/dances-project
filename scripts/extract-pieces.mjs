@@ -6,7 +6,10 @@ import yaml from 'js-yaml';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const pathToKernScores = `${__dirname}/../schubert-dances/kern/`;
+const pathToKernScores = [
+    `${__dirname}/../schubert-dances/kern/`,
+    `${__dirname}/../gonzaga-dances/kern/`,
+];
 const piecesYamlPath = `${__dirname}/../content/pieces/`;
 
 function getIdFromFilename(path) {
@@ -50,35 +53,43 @@ function getFiles(directory, fileList) {
 execSync(`rm -rf ${piecesYamlPath}`);
 execSync(`mkdir -p ${piecesYamlPath}`);
 
-getFiles(pathToKernScores).forEach(file => {
-    const id = getIdFromFilename(file);
-    console.log(id);
+pathToKernScores.forEach(repo => {
+    console.log(repo)
+    const pathDirs = repo.split('/');
+    const prefix = pathDirs[pathDirs.length - 3].split('-')[0]; 
+    const composer = prefix === 'schubert' ? 'Franz Schubert' : 'Francisca Gonzaga';
 
-    const kern = fs.readFileSync(file, 'utf8');
-    const referenceRecords = parseHumdrumReferenceRecords(kern);
+    getFiles(repo).forEach(file => {
+        const id = getIdFromFilename(file);
+        console.log(id);
 
-    const key = kern.match(/\*([a-hA-H][\#\-]*):/)?.[1] ?? null;
-    const meter = kern.match(/\*M(\d+\/\d+)/)?.[1] ?? null;
-    const config = Object.assign({
-        slug: `schubert-${id}`,
-        filename: id,
-        title: referenceRecords.OTL,
-        urlScan: referenceRecords['URL-scan'],
-        op: parseInt(referenceRecords.OPS?.replaceAll(/\D/g, '')) || null,
-        nr: parseInt(referenceRecords.ONM?.replaceAll(/\D/g, '')) || null,
-        largerWorkTitle: referenceRecords.OPR,
-        localRawFile: `/kern/schubert-dances/${id}.krn`,
-        composer: 'Franz Schubert',
-        key,
-        meter,
-        majorMinor: key === key.toLowerCase() ? 'minor' : 'major',
+        const kern = fs.readFileSync(file, 'utf8');
+        const referenceRecords = parseHumdrumReferenceRecords(kern);
+
+        const key = kern.match(/\*([a-hA-H][\#\-]*):/)?.[1] ?? null;
+        const meter = kern.match(/\*M(\d+\/\d+)/)?.[1] ?? null;
+        const config = Object.assign({
+            slug: `${prefix}-${id}`,
+            filename: id,
+            title: referenceRecords.OTL,
+            urlScan: referenceRecords['URL-scan'],
+            op: parseInt(referenceRecords.OPS?.replaceAll(/\D/g, '')) || null,
+            nr: parseInt(referenceRecords.ONM?.replaceAll(/\D/g, '')) || null,
+            largerWorkTitle: referenceRecords.OPR,
+            localRawFile: `/kern/${prefix}-dances/${id}.krn`,
+            composer,
+            key,
+            meter,
+            majorMinor: key === key.toLowerCase() ? 'minor' : 'major',
+            genre: referenceRecords.AGN,
+        });
+
+        const configFilename = `${prefix}-${id}.yaml`;
+        fs.writeFileSync(`${piecesYamlPath}${configFilename}`, yaml.dump(config, {
+            indent: 4,
+            lineWidth: -1,
+            sortKeys: true,
+        }));
+    
     });
-
-    const configFilename = `schubert-${id}.yaml`;
-    fs.writeFileSync(`${piecesYamlPath}${configFilename}`, yaml.dump(config, {
-        indent: 4,
-        lineWidth: -1,
-        sortKeys: true,
-    }));
- 
 });

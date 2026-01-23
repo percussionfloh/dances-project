@@ -18,7 +18,7 @@ const options = reactive({
 
 const openScore = ref(null);
 function toggleScore(value) {
-    openScore.value = openScore.value === value ? null : value;0
+    openScore.value = openScore.value === value ? null : value;
 }
 
 const forms = formData.value.body;
@@ -33,7 +33,6 @@ const forms = formData.value.body;
         <UTabs :items="tabItems">
 
             <template #minimap>
-                HELLOOO
                 <div class="grid grid-cols-1 gap-4">
                     <UCard v-for="piece in data">
                         <template #header>

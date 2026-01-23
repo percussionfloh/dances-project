@@ -16,6 +16,7 @@ export default defineContentConfig({
                 meter: z.string(),
                 nr: z.number(),
                 op: z.number(),
+                genre: z.string(),
             }),
         }),
         data: defineCollection({
