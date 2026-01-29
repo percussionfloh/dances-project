@@ -37,7 +37,7 @@ getFiles(pathToKernScores).forEach(file => {
     const id = 'schubert-' + getIdFromFilename(file);
     console.log(id);
     const stdout = execSync(`awk '{print NR "\t" $0}' ${file} | grep -E '^[0-9]+\t\\*[a-zA-Z][-#]*:'`).toString().trim();
-    const beatStdout = execSync(`cat ${file} | lnnr | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridx -LGTMId`).toString().trim();
+    const beatStdout = execSync(`cat ${file} | lnnr | beat -cp | beat -dp | beat -da --attacks 0 | extractxx -I '**text' | extractxx -I '**dynam' | extractxx -I '**kern' | ridxx -LGTMId`).toString().trim();
 
     const keys = stdout.trim().split('\n').map(line => {
         let [lineNumber, key] = line.split('\t').slice(0, 2);
@@ -80,7 +80,7 @@ getFiles(pathToKernScores).forEach(file => {
 *${pieceKey}:
 ${key.toLowerCase()}`;
     
-            const stdout = execSync(`echo "${degScore}" | degx | extractxx -i deg | ridx -I`).toString().trim();
+            const stdout = execSync(`echo "${degScore}" | degx | extractxx -i deg | ridxx -I`).toString().trim();
             let deg = romanize(stdout.replaceAll(/\D/g, ''));
             deg = key === key.toLowerCase() ? deg.toLowerCase() : deg.toUpperCase();
             deg += stdout.replaceAll(/\d/g, '').replaceAll('-', '♭').replaceAll('+', '♯');
