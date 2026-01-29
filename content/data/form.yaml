@@ -1698,34 +1698,41 @@ gonzaga-agua-do-vintem:
         start: 0/2.25
         end: 8/1.5
         startLine: 17
-        endLine: null
+        endLine: 86
         startKey: F
-        endKey: null
+        endKey: F
         startBeat: 0
+        endBeat: 15.25
     -
         name: B
         start: 8/2.25
         end: 24/1.75
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 88
+        endLine: 221
+        startKey: F
+        endKey: d
+        startBeat: 16
+        endBeat: 47.5
     -
         name: A
         start: 24/2.25
         end: 32/2
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 224
+        endLine: 292
+        startKey: F
+        endKey: F
+        startBeat: 48
+        endBeat: 63.75
     -
         name: Trio
         start: 33/1
         end: 52/1.5
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 299
+        endLine: 442
+        startKey: B-
+        endKey: B-
+        startBeat: 64.75
+        endBeat: 103.25
 gonzaga-ainda-nao-morreu:
     -
         name: Intro
@@ -1783,51 +1790,59 @@ gonzaga-alegre-se-viuva:
         start: 0/1.5
         end: 1/1
         startLine: null
-        endLine: 381
+        endLine: 20
         startKey: null
-        endKey: F
-        endBeat: 106.5
+        endKey: C
+        endBeat: 0.5
     -
         name: A
         start: 1/1.5
         end: 12/2.5
-        startLine: 374
-        endLine: null
-        startKey: F
-        endKey: null
-        startBeat: 105
+        startLine: null
+        endLine: 92
+        startKey: null
+        endKey: C
+        endBeat: 24
     -
         name: B
         start: 13/1
         end: 24/1
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 97
+        endLine: 179
+        startKey: a
+        endKey: a
+        startBeat: 24.5
+        endBeat: 46.5
     -
         name: A
         start: 24/2.5
         end: 35/2.5
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 181
+        endLine: 250
+        startKey: a
+        endKey: a
+        startBeat: 48
+        endBeat: 70
     -
         name: Trio A
         start: 36/1
         end: 43/1
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 255
+        endLine: 297
+        startKey: F
+        endKey: F
+        startBeat: 70.5
+        endBeat: 84.5
     -
         name: Trio B
         start: 43/2
         end: 54/1
-        startLine: null
-        endLine: null
-        startKey: null
-        endKey: null
+        startLine: 299
+        endLine: 381
+        startKey: F
+        endKey: F
+        startBeat: 85.5
+        endBeat: 106.5
 gonzaga-anga:
     -
         name: A
