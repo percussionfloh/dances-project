@@ -23,12 +23,39 @@ function toggleScore(value) {
 
 const forms = formData.value.body;
 
+const defaultFilters = {
+    deg: null,
+    composer: null,
+    genre: null,
+};
+
+const filters = reactive({ ...defaultFilters });
+
+const filteredPieces = computed(() => {
+    return data.value.filter(item => {
+        let matchComposer = true;
+        if (filters.composer) {
+            matchComposer = item.composer === filters.composer;
+        }
+        return matchDeg && matchComposer && matchGenre;
+    });
+});
+
+
+const composerItems = [...new Set(data.value.map(p => p.composer))];
+
+
 </script>
 
 
 <template>
     <UContainer>
         <Heading>{{ $t('Form') }}</Heading>
+             <div class="grid grid-cols-4 gap-4">
+                <UFormField :label="$t('composer')">
+                    <USelect v-model="filters.composer" :items="composerItems" class="w-full" />
+                </UFormField>
+            </div>
 
         <UTabs :items="tabItems">
 
@@ -39,10 +66,10 @@ const forms = formData.value.body;
                             <NuxtLink :to="localePath({ name: 'piece-id', params: { id: piece.slug } })">
                                 <div class="flex">
                                     <div>
-                                        {{ `${piece.composer}: ${piece.largerWorkTitle} №${piece.nr}` }}
+                                        {{ piece.op && piece.nr ? `Op. ${piece.op} № ${piece.nr}` : piece.title }}
                                     </div>
                                     <div class="ml-auto">
-                                        {{ `Op. ${piece.op} № ${piece.nr}` }}
+                                         {{ `${piece.composer}: ${piece.largerWorkTitle}${piece.nr ? ` №${piece.nr}` : ''}` }}
                                     </div>
                                 </div>
                             </NuxtLink>

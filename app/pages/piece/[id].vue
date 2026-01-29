@@ -49,9 +49,9 @@ form.forEach(formPart => {
         <div class="flex flex-col gap-8">
             <div>
                 <Heading>
-                    {{ `${piece.largerWorkTitle} №${piece.nr}` }}
+                    {{ `${piece.largerWorkTitle}${piece.largerWorkTitle === 'Tangos' ? ',' : ''} ${piece.nr ? ` №${piece.nr}` : piece.title}` }}
                     <div class="text-base font-normal">
-                        {{ piece.composer }}, Op. {{ piece.op }}
+                        {{ piece.composer }}{{ `${piece.op ? `, Op. ${piece.op}` : '' }`}}
                     </div>
                 </Heading>
                 <div class="flex gap-2 items-center">

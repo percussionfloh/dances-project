@@ -1697,49 +1697,42 @@ gonzaga-agua-do-vintem:
         name: A
         start: 0/2.25
         end: 8/1.5
-        startLine: 21
-        endLine: 89
+        startLine: 17
+        endLine: null
         startKey: F
-        endKey: d
-        startBeat: 2
-        endBeat: 17.25
+        endKey: null
+        startBeat: 0
     -
         name: B
         start: 8/2.25
         end: 24/1.75
-        startLine: 92
-        endLine: 234
-        startKey: d
-        endKey: F
-        startBeat: 18
-        endBeat: 49.5
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
     -
         name: A
         start: 24/2.25
         end: 32/2
-        startLine: 236
-        endLine: 306
-        startKey: F
-        endKey: B-
-        startBeat: 50
-        endBeat: 65.75
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
     -
         name: Trio
         start: 33/1
         end: 52/1.5
-        startLine: 310
-        endLine: 457
-        startKey: B-
-        endKey: F
-        startBeat: 66.75
-        endBeat: 105.25
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
 gonzaga-ainda-nao-morreu:
     -
         name: Intro
         start: 1/1
         end: 9/1
-        startLine: 12
-        endLine: 80
+        startLine: 15
+        endLine: 84
         startKey: E-
         endKey: E-
         startBeat: 0
@@ -1748,8 +1741,8 @@ gonzaga-ainda-nao-morreu:
         name: A
         start: 9/2.25
         end: 25/2
-        startLine: 83
-        endLine: 221
+        startLine: 87
+        endLine: 222
         startKey: E-
         endKey: E-
         startBeat: 17.25
@@ -1758,8 +1751,8 @@ gonzaga-ainda-nao-morreu:
         name: B
         start: 25/2.25
         end: 33/1
-        startLine: 222
-        endLine: 286
+        startLine: 223
+        endLine: 287
         startKey: E-
         endKey: E-
         startBeat: 49.25
@@ -1768,8 +1761,8 @@ gonzaga-ainda-nao-morreu:
         name: A
         start: 33/2.25
         end: 49/2
-        startLine: 289
-        endLine: 426
+        startLine: 290
+        endLine: 424
         startKey: E-
         endKey: E-
         startBeat: 65.25
@@ -1778,8 +1771,8 @@ gonzaga-ainda-nao-morreu:
         name: C
         start: 50/1
         end: 58/2
-        startLine: 432
-        endLine: 484
+        startLine: 431
+        endLine: 483
         startKey: c
         endKey: c
         startBeat: 98
@@ -1790,95 +1783,88 @@ gonzaga-alegre-se-viuva:
         start: 0/1.5
         end: 1/1
         startLine: null
-        endLine: 19
+        endLine: 381
         startKey: null
-        endKey: C
-        endBeat: 2.5
+        endKey: F
+        endBeat: 106.5
     -
         name: A
         start: 1/1.5
         end: 12/2.5
-        startLine: 20
+        startLine: 374
         endLine: null
-        startKey: C
+        startKey: F
         endKey: null
-        startBeat: 3
+        startBeat: 105
     -
         name: B
         start: 13/1
         end: 24/1
-        startLine: 93
-        endLine: 172
-        startKey: C
-        endKey: a
-        startBeat: 26.5
-        endBeat: 48.5
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
     -
         name: A
         start: 24/2.5
         end: 35/2.5
-        startLine: 178
-        endLine: 251
-        startKey: a
-        endKey: a
-        startBeat: 50
-        endBeat: 72
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
     -
         name: Trio A
         start: 36/1
         end: 43/1
-        startLine: 253
-        endLine: 299
-        startKey: a
-        endKey: a
-        startBeat: 72.5
-        endBeat: 86.5
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
     -
         name: Trio B
         start: 43/2
         end: 54/1
-        startLine: 301
-        endLine: 369
-        startKey: a
-        endKey: F
-        startBeat: 87.5
-        endBeat: 108.5
+        startLine: null
+        endLine: null
+        startKey: null
+        endKey: null
 gonzaga-anga:
     -
         name: A
         start: 0/2.5
-        end: 16/2
-        startLine: 19
-        endLine: 130
+        end: 15/2
+        startLine: 24
+        endLine: 125
         startKey: C
-        endKey: G
+        endKey: C
         startBeat: 2.5
-        endBeat: 34
+        endBeat: 32
     -
         name: B
-        start: 16/2
-        end: 32/1.5
-        startLine: 130
-        endLine: null
+        start: 16/1
+        end: 31/1.5
+        startLine: 131
+        endLine: 239
         startKey: G
-        endKey: null
-        startBeat: 34
+        endKey: G
+        startBeat: 33
+        endBeat: 63.5
     -
         name: A
-        start: 32/2.5
+        start: 31/2.5
         end: 48/2
-        startLine: 248
-        endLine: 359
-        startKey: C
+        startLine: 241
+        endLine: 358
+        startKey: G
         endKey: F
-        startBeat: 66.5
+        startBeat: 64.5
         endBeat: 98
     -
         name: Trio
         start: 49/1
         end: 63/2
-        startLine: 362
-        endLine: 452
+        startLine: 361
+        endLine: 449
         startKey: F
         endKey: F
         startBeat: 99
@@ -1888,8 +1874,8 @@ gonzaga-bijou:
         name: Intro
         start: 1/1
         end: 12/2
-        startLine: 13
-        endLine: 100
+        startLine: 16
+        endLine: 101
         startKey: F
         endKey: F
         startBeat: 0
@@ -1898,8 +1884,8 @@ gonzaga-bijou:
         name: A
         start: 13/1
         end: 29/2
-        startLine: 102
-        endLine: 208
+        startLine: 104
+        endLine: 210
         startKey: F
         endKey: F
         startBeat: 24
@@ -1908,7 +1894,7 @@ gonzaga-bijou:
         name: A
         start: 30/1
         end: 62/2
-        startLine: 214
+        startLine: 217
         endLine: 428
         startKey: B-
         endKey: B-
@@ -1919,8 +1905,8 @@ gonzaga-bionne:
         name: A
         start: 0/2.25
         end: 16/1.5
-        startLine: 21
-        endLine: 157
+        startLine: 26
+        endLine: 160
         startKey: C
         endKey: F
         startBeat: 2
@@ -1928,39 +1914,40 @@ gonzaga-bionne:
     -
         name: B
         start: 16/2.25
-        end: 32/1.5
-        startLine: 160
-        endLine: 296
+        end: 31/1.5
+        startLine: 163
+        endLine: 286
         startKey: F
-        endKey: C
+        endKey: F
         startBeat: 34
-        endBeat: 65.25
+        endBeat: 63.25
     -
         name: A
-        start: 32/2.5
-        end: 48/1.5
-        startLine: 300
-        endLine: 431
-        startKey: C
-        endKey: F
-        startBeat: 66.25
-        endBeat: 97.25
+        start: 31/2.5
+        end: 47/1.5
+        startLine: 289
+        endLine: 421
+        startKey: F
+        endKey: C
+        startBeat: 64.25
+        endBeat: 95.25
     -
         name: Trio
-        start: 49/1
-        end: 66/1
-        startLine: 436
-        endLine: null
+        start: 48/1
+        end: 65/1
+        startLine: 427
+        endLine: 535
         startKey: F
-        endKey: null
-        startBeat: 98.75
+        endKey: F
+        startBeat: 96.75
+        endBeat: 130.75
 gonzaga-carijo:
     -
         name: Intro
         start: 1/2.5
         end: 5/2.5
-        startLine: 14
-        endLine: 32
+        startLine: 17
+        endLine: 35
         startKey: b-
         endKey: b-
         startBeat: 1.5
@@ -1969,8 +1956,8 @@ gonzaga-carijo:
         name: A
         start: 6/1
         end: 22/2
-        startLine: 34
-        endLine: 159
+        startLine: 39
+        endLine: 164
         startKey: b-
         endKey: D-
         startBeat: 10
@@ -1979,8 +1966,8 @@ gonzaga-carijo:
         name: A
         start: 23/1
         end: 32/2
-        startLine: 161
-        endLine: 236
+        startLine: 167
+        endLine: 244
         startKey: D-
         endKey: b-
         startBeat: 44
@@ -1990,8 +1977,8 @@ gonzaga-choro:
         name: Intro
         start: 1/1
         end: 8/1
-        startLine: 12
-        endLine: 58
+        startLine: 15
+        endLine: 60
         startKey: E-
         endKey: E-
         startBeat: 0
@@ -2000,7 +1987,7 @@ gonzaga-choro:
         name: A
         start: 8/1.75
         end: 24/1.5
-        startLine: 60
+        startLine: 62
         endLine: null
         startKey: E-
         endKey: null
@@ -2009,68 +1996,69 @@ gonzaga-choro:
         name: A
         start: 24/2.5
         end: 40/1.5
-        startLine: 197
+        startLine: 196
         endLine: null
         startKey: A-
         endKey: null
-        startBeat: 50
+        startBeat: 49.5
 gonzaga-evoe:
     -
         name: Intro
         start: 0/2.5
-        end: 13/1
-        startLine: 19
-        endLine: 108
+        end: 12/1
+        startLine: 24
+        endLine: 104
         startKey: C
         endKey: C
         startBeat: 2
-        endBeat: 26.5
+        endBeat: 24.5
     -
         name: A
-        start: 13/2.25
-        end: 22/2
-        startLine: 113
-        endLine: 189
+        start: 12/2.25
+        end: 21/2
+        startLine: 107
+        endLine: 182
         startKey: C
-        endKey: F
-        startBeat: 27.75
-        endBeat: 45.5
+        endKey: C
+        startBeat: 25.75
+        endBeat: 43.5
     -
         name: B
-        start: 22/2.5
-        end: 38/1
-        startLine: 191
-        endLine: null
+        start: 21/2.5
+        end: 37/2
+        startLine: 187
+        endLine: 320
         startKey: F
-        endKey: null
-        startBeat: 46
+        endKey: F
+        startBeat: 44
+        endBeat: 75.5
 gonzaga-faceiro:
     -
         name: A
         start: 1/1
-        end: 17/1
-        startLine: 13
-        endLine: 130
+        end: 16/2
+        startLine: 16
+        endLine: 124
         startKey: F
-        endKey: C
+        endKey: F
         startBeat: 0
-        endBeat: 32
+        endBeat: 31
     -
         name: B
-        start: 18/1
+        start: 17/1
         end: 33/2.75
-        startLine: 138
-        endLine: 249
+        startLine: 132
+        endLine: 248
         startKey: C
         endKey: C
-        startBeat: 34
+        startBeat: 32
         endBeat: 65.75
     -
         name: A
         start: 34/1
         end: 49/2
-        startLine: 253
-        endLine: 362
+        startLine: 252
+        endLine: 359
         startKey: F
         endKey: F
         startBeat: 66
@@ -2078,40 +2066,41 @@ gonzaga-faceiro:
     -
         name: Trio
         start: 50/1
-        end: 66/2
-        startLine: 368
-        endLine: null
+        end: 65/2
+        startLine: 365
+        endLine: 458
         startKey: B-
-        endKey: null
+        endKey: B-
         startBeat: 98
+        endBeat: 129
 gonzaga-gaucho:
     -
         name: A
         start: 1/1
         end: 24/2
-        startLine: 13
-        endLine: 200
+        startLine: 16
+        endLine: 199
         startKey: d
         endKey: d
         startBeat: 0
         endBeat: 47
     -
         name: B
-        start: 25/2.5
+        start: 25/1
         end: 44/2
-        startLine: 209
+        startLine: 205
         endLine: 338
         startKey: F
         endKey: d
-        startBeat: 49.5
+        startBeat: 48
         endBeat: 87
 gonzaga-julia:
     -
         name: A
         start: 1/1
         end: 16/2.5
-        startLine: 12
-        endLine: 116
+        startLine: 15
+        endLine: 117
         startKey: F
         endKey: F
         startBeat: 0
@@ -2120,7 +2109,7 @@ gonzaga-julia:
         name: B
         start: 17/1
         end: 32/2
-        startLine: 120
+        startLine: 122
         endLine: 219
         startKey: d
         endKey: F
@@ -2131,7 +2120,7 @@ gonzaga-julia:
         start: 33/1
         end: 48/2.5
         startLine: 222
-        endLine: 327
+        endLine: 325
         startKey: F
         endKey: F
         startBeat: 64
@@ -2140,8 +2129,8 @@ gonzaga-julia:
         name: Trio
         start: 49/1
         end: 64/2
-        startLine: 331
-        endLine: 436
+        startLine: 329
+        endLine: 432
         startKey: B-
         endKey: B-
         startBeat: 96
@@ -2151,8 +2140,8 @@ gonzaga-linda-morena:
         name: A
         start: 1/1
         end: 11/2
-        startLine: 13
-        endLine: 77
+        startLine: 16
+        endLine: 81
         startKey: D
         endKey: D
         startBeat: 0
@@ -2161,8 +2150,8 @@ gonzaga-linda-morena:
         name: B
         start: 12/1
         end: 22/2
-        startLine: 81
-        endLine: 155
+        startLine: 86
+        endLine: 160
         startKey: D
         endKey: D
         startBeat: 22
@@ -2171,8 +2160,8 @@ gonzaga-linda-morena:
         name: Trio
         start: 23/1
         end: 40/2
-        startLine: 158
-        endLine: 272
+        startLine: 164
+        endLine: 277
         startKey: G
         endKey: G
         startBeat: 44
@@ -2182,28 +2171,28 @@ gonzaga-o-diabinho:
         name: Intro
         start: 1/1
         end: 2/2.5
-        startLine: 12
-        endLine: 23
+        startLine: 13
+        endLine: 24
         startKey: B-
         endKey: B-
         startBeat: 0
         endBeat: 3.5
     -
         name: A
-        start: 1/1
+        start: 3/1
         end: 18/2
-        startLine: 12
-        endLine: 140
+        startLine: 27
+        endLine: 139
         startKey: B-
         endKey: B-
-        startBeat: 0
+        startBeat: 4
         endBeat: 35
     -
         name: B
         start: 19/1
         end: 34/2
-        startLine: 145
-        endLine: 251
+        startLine: 143
+        endLine: 248
         startKey: E-
         endKey: E-
         startBeat: 36
@@ -2212,8 +2201,8 @@ gonzaga-o-diabinho:
         name: Intro
         start: 35/1
         end: 36/2.5
-        startLine: 254
-        endLine: 264
+        startLine: 251
+        endLine: 261
         startKey: B-
         endKey: B-
         startBeat: 68
@@ -2222,8 +2211,8 @@ gonzaga-o-diabinho:
         name: A
         start: 37/1
         end: 52/2
-        startLine: 267
-        endLine: 381
+        startLine: 263
+        endLine: 375
         startKey: B-
         endKey: B-
         startBeat: 72
@@ -2232,8 +2221,8 @@ gonzaga-o-diabinho:
         name: B
         start: 53/1
         end: 68/2
-        startLine: 385
-        endLine: 506
+        startLine: 379
+        endLine: 497
         startKey: E-
         endKey: E-
         startBeat: 104
@@ -2243,28 +2232,28 @@ gonzaga-o-jagunco:
         name: Intro
         start: 1/1
         end: 4/1
-        startLine: 14
-        endLine: 35
+        startLine: 17
+        endLine: 38
         startKey: F
         endKey: F
         startBeat: 0
         endBeat: 6
     -
         name: A
-        start: 5/1
+        start: 4/2
         end: 20/1
-        startLine: 41
+        startLine: 40
         endLine: 176
         startKey: F
         endKey: F
-        startBeat: 8
+        startBeat: 7
         endBeat: 38
     -
         name: Outro=Intro
         start: 20/1.5
         end: 24/2
         startLine: 177
-        endLine: 207
+        endLine: 206
         startKey: F
         endKey: F
         startBeat: 38.5
@@ -2274,7 +2263,7 @@ gonzaga-o-jagunco:
         start: 25/1
         end: 44/2
         startLine: 213
-        endLine: 368
+        endLine: 365
         startKey: C
         endKey: C
         startBeat: 48
@@ -2284,7 +2273,7 @@ gonzaga-saci-perere:
         name: A
         start: 1/1
         end: 20/1.5
-        startLine: 12
+        startLine: 15
         endLine: 185
         startKey: C
         endKey: C
@@ -2293,29 +2282,29 @@ gonzaga-saci-perere:
     -
         name: B
         start: 20/2.25
-        end: 37/2
+        end: 36/2
         startLine: 187
-        endLine: 343
+        endLine: 330
         startKey: C
-        endKey: G
+        endKey: C
         startBeat: 39.25
-        endBeat: 73
+        endBeat: 71
     -
         name: C
-        start: 37/2.25
+        start: 36/2.25
         end: 44/2
-        startLine: 344
-        endLine: 408
-        startKey: G
+        startLine: 332
+        endLine: 405
+        startKey: C
         endKey: G
-        startBeat: 73.25
+        startBeat: 71.25
         endBeat: 87
     -
         name: Trio
         start: 44/2.25
         end: 60/2
-        startLine: 409
-        endLine: 558
+        startLine: 406
+        endLine: 553
         startKey: G
         endKey: F
         startBeat: 87.25
@@ -2325,8 +2314,8 @@ gonzaga-sao-paolo:
         name: Intro
         start: 1/1
         end: 8/1
-        startLine: 12
-        endLine: 56
+        startLine: 15
+        endLine: 59
         startKey: F
         endKey: F
         startBeat: 0
@@ -2335,8 +2324,8 @@ gonzaga-sao-paolo:
         name: A
         start: 8/2.5
         end: 25/2
-        startLine: 58
-        endLine: 184
+        startLine: 61
+        endLine: 188
         startKey: F
         endKey: F
         startBeat: 15.5
@@ -2345,8 +2334,8 @@ gonzaga-sao-paolo:
         name: B
         start: 26/1
         end: 42/2
-        startLine: 189
-        endLine: 304
+        startLine: 194
+        endLine: 308
         startKey: C
         endKey: C
         startBeat: 50
@@ -2354,81 +2343,103 @@ gonzaga-sao-paolo:
     -
         name: C
         start: 43/1
-        end: 50/2
-        startLine: 309
-        endLine: 354
+        end: 50/1
+        startLine: 314
+        endLine: 357
         startKey: F
         endKey: F
         startBeat: 84
-        endBeat: 99
+        endBeat: 98
     -
         name: A
-        start: 50/2.
+        start: 50/2
         end: 66/2.25
-        startLine: 354
-        endLine: 474
+        startLine: 358
+        endLine: 477
         startKey: F
         endKey: F
         startBeat: 99
         endBeat: 131.25
     -
         name: Trio
-        start: 66/2.5
+        start: 67/2.5
         end: 84/2
-        startLine: 475
-        endLine: 611
+        startLine: 485
+        endLine: 615
         startKey: F
         endKey: B-
-        startBeat: 131.5
+        startBeat: 133.5
         endBeat: 167
 gonzaga-sedutor:
     -
         name: Intro
         start: 0/2.75
         end: 6/1
-        startLine: 22
-        endLine: 53
+        startLine: 25
+        endLine: 45
         startKey: F
         endKey: F
         startBeat: 2
-        endBeat: 12.25
+        endBeat: 10.25
     -
         name: A
         start: 6/1.75
         end: 23/1
-        startLine: 54
-        endLine: 185
+        startLine: 48
+        endLine: 188
         startKey: F
         endKey: d
-        startBeat: 13
-        endBeat: 46.25
+        startBeat: 11
+        endBeat: 44.25
     -
         name: B
         start: 23/1.75
         end: 55/1
-        startLine: 187
-        endLine: 432
+        startLine: 190
+        endLine: 431
         startKey: d
         endKey: F
-        startBeat: 47
-        endBeat: 110.25
+        startBeat: 45
+        endBeat: 108.25
+    -
+        name: A
+        start: 7/1
+        end: 20/2.5
+        barnumShift: 57
+        startLine: 58
+        endLine: 164
+        startKey: F
+        endKey: F
+        startBeat: 12.25
+        endBeat: 39.75
+    -
+        name: Coda
+        start: 56/1
+        end: 57/1
+        barnumShift: 71
+        startLine: 443
+        endLine: 448
+        startKey: F
+        endKey: F
+        startBeat: 110.25
+        endBeat: 112.25
 gonzaga-so-na-flauta:
     -
         name: Intro
         start: 1/1
-        end: 3/1
-        startLine: 13
-        endLine: 27
+        end: 3/2
+        startLine: 16
+        endLine: 33
         startKey: F
         endKey: F
         startBeat: 0
-        endBeat: 4
+        endBeat: 5
     -
         name: A
         start: 4/1.25
         end: 20/1
-        startLine: 34
-        endLine: 159
+        startLine: 38
+        endLine: 163
         startKey: F
         endKey: F
         startBeat: 6.25
@@ -2437,8 +2448,8 @@ gonzaga-so-na-flauta:
         name: B
         start: 20/1.75
         end: 36/2
-        startLine: 161
-        endLine: 282
+        startLine: 165
+        endLine: 284
         startKey: F
         endKey: B-
         startBeat: 38.75
@@ -2447,58 +2458,60 @@ gonzaga-so-no-choro:
     -
         name: A
         start: 0/2.75
-        end: 9/2
-        startLine: 12
-        endLine: 97
+        end: 7/2
+        startLine: 15
+        endLine: 86
         startKey: G
         endKey: G
         startBeat: 0
-        endBeat: 21.75
+        endBeat: 17.75
     -
         name: B
-        start: 9/2.75
-        end: 25/2.25
-        startLine: 99
-        endLine: 213
+        start: 7/2.75
+        end: 23/2.25
+        startLine: 88
+        endLine: 201
         startKey: G
         endKey: D
-        startBeat: 22.5
-        endBeat: 54
+        startBeat: 18.5
+        endBeat: 50
     -
         name: A
-        start: 25/2.75
-        end: 34/2
-        startLine: 215
-        endLine: null
+        start: 23/2.75
+        end: 32/2
+        startLine: 203
+        endLine: 274
         startKey: D
-        endKey: null
-        startBeat: 54.5
+        endKey: D
+        startBeat: 50.5
+        endBeat: 67.75
     -
         name: C
-        start: 34/2.75
-        end: 51/2
-        startLine: 279
-        endLine: 394
+        start: 32/2.75
+        end: 49/2
+        startLine: 277
+        endLine: 385
         startKey: G
-        endKey: D
-        startBeat: 72.5
-        endBeat: 105.75
+        endKey: G
+        startBeat: 68.5
+        endBeat: 101.75
     -
         name: A
-        start: 51/2.75
-        end: 60/2
-        startLine: 397
-        endLine: null
+        start: 49/2.75
+        end: 58/2
+        startLine: 388
+        endLine: 457
         startKey: D
-        endKey: null
-        startBeat: 106.5
+        endKey: D
+        startBeat: 102.5
+        endBeat: 119.75
 gonzaga-suspiro:
     -
         name: intro
         start: 1/1
         end: 4/1
-        startLine: 12
-        endLine: 18
+        startLine: 13
+        endLine: 19
         startKey: f
         endKey: f
         startBeat: 0
@@ -2507,8 +2520,8 @@ gonzaga-suspiro:
         name: A
         start: 5/1
         end: 20/2.5
-        startLine: 23
-        endLine: 140
+        startLine: 24
+        endLine: 141
         startKey: f
         endKey: f
         startBeat: 8
@@ -2517,8 +2530,8 @@ gonzaga-suspiro:
         name: B
         start: 21/1
         end: 36/2.5
-        startLine: 144
-        endLine: 227
+        startLine: 145
+        endLine: 228
         startKey: b-
         endKey: D-
         startBeat: 40
@@ -2527,8 +2540,8 @@ gonzaga-suspiro:
         name: Interlude
         start: 37/1
         end: 44/1
-        startLine: 231
-        endLine: 270
+        startLine: 232
+        endLine: 271
         startKey: b-
         endKey: F
         startBeat: 72
@@ -2537,29 +2550,29 @@ gonzaga-suspiro:
         name: Trio
         start: 44/2
         end: 60/1
-        startLine: 271
-        endLine: 354
+        startLine: 272
+        endLine: 355
         startKey: F
         endKey: b-
         startBeat: 87
         endBeat: 118
     -
         name: A
-        start: 61/2.5
+        start: 61/1
         end: 76/2
-        startLine: 363
-        endLine: 475
+        startLine: 361
+        endLine: 476
         startKey: f
         endKey: f
-        startBeat: 121.5
+        startBeat: 120
         endBeat: 151
 gonzaga-tambyquerere:
     -
         name: A
         start: 1/1
         end: 16/1.5
-        startLine: 12
-        endLine: 130
+        startLine: 15
+        endLine: 131
         startKey: F
         endKey: F
         startBeat: 0
@@ -2568,8 +2581,8 @@ gonzaga-tambyquerere:
         name: B
         start: 16/2.25
         end: 32/1
-        startLine: 133
-        endLine: 265
+        startLine: 135
+        endLine: 264
         startKey: C
         endKey: C
         startBeat: 31.25
@@ -2578,8 +2591,8 @@ gonzaga-tambyquerere:
         name: Interlude
         start: 32/2.5
         end: 34/2
-        startLine: 267
-        endLine: 278
+        startLine: 266
+        endLine: 277
         startKey: C
         endKey: F
         startBeat: 63.5
@@ -2588,8 +2601,8 @@ gonzaga-tambyquerere:
         name: A
         start: 35/1
         end: 50/2
-        startLine: 281
-        endLine: 401
+        startLine: 280
+        endLine: 397
         startKey: F
         endKey: B-
         startBeat: 68
@@ -2598,8 +2611,8 @@ gonzaga-tambyquerere:
         name: Trio
         start: 51/1
         end: 82/1
-        startLine: 404
-        endLine: 634
+        startLine: 400
+        endLine: 625
         startKey: B-
         endKey: B-
         startBeat: 100
@@ -2608,8 +2621,8 @@ gonzaga-tambyquerere:
         name: Interlude
         start: 82/2.5
         end: 84/2
-        startLine: 637
-        endLine: 647
+        startLine: 628
+        endLine: 637
         startKey: F
         endKey: F
         startBeat: 163.5
@@ -2618,29 +2631,29 @@ gonzaga-tango-alguma:
     -
         name: A
         start: 1/1
-        end: 9/2.
-        startLine: 14
-        endLine: 81
+        end: 9/1.5
+        startLine: 17
+        endLine: 85
         startKey: F
         endKey: F
         startBeat: 0
-        endBeat: 17
+        endBeat: 16.5
     -
         name: B
-        start: 5/1
+        start: 9/2
         end: 25/2
-        startLine: 47
-        endLine: 196
+        startLine: 86
+        endLine: 203
         startKey: F
         endKey: f
-        startBeat: 8
+        startBeat: 17
         endBeat: 49
     -
         name: A
         start: 26/1
         end: 34/1.5
-        startLine: 203
-        endLine: 269
+        startLine: 211
+        endLine: 279
         startKey: F
         endKey: F
         startBeat: 50
@@ -2650,8 +2663,8 @@ gonzaga-tango-brasileiro:
         name: Intro
         start: 1/1
         end: 4/2.75
-        startLine: 12
-        endLine: 38
+        startLine: 13
+        endLine: 39
         startKey: c
         endKey: c
         startBeat: 0
@@ -2660,8 +2673,8 @@ gonzaga-tango-brasileiro:
         name: A
         start: 5/1
         end: 20/2.75
-        startLine: 40
-        endLine: 146
+        startLine: 41
+        endLine: 147
         startKey: c
         endKey: c
         startBeat: 8
@@ -2670,8 +2683,8 @@ gonzaga-tango-brasileiro:
         name: Interlude
         start: 21/1
         end: 24/2
-        startLine: 148
-        endLine: 171
+        startLine: 149
+        endLine: 172
         startKey: c
         endKey: c
         startBeat: 40
@@ -2680,8 +2693,8 @@ gonzaga-tango-brasileiro:
         name: A
         start: 25/1
         end: 40/2
-        startLine: 174
-        endLine: 276
+        startLine: 175
+        endLine: 277
         startKey: E-
         endKey: E-
         startBeat: 48
@@ -2691,8 +2704,8 @@ gonzaga-tango-caracteristico:
         name: A
         start: 1/1
         end: 18/2
-        startLine: 12
-        endLine: 140
+        startLine: 14
+        endLine: 142
         startKey: D
         endKey: D
         startBeat: 0
@@ -2701,8 +2714,8 @@ gonzaga-tango-caracteristico:
         name: B
         start: 19/1
         end: 34/1
-        startLine: 147
-        endLine: 248
+        startLine: 149
+        endLine: 251
         startKey: G
         endKey: G
         startBeat: 36
@@ -2711,8 +2724,8 @@ gonzaga-tango-caracteristico:
         name: A
         start: 35/1
         end: 52/2
-        startLine: 254
-        endLine: 381
+        startLine: 258
+        endLine: 385
         startKey: D
         endKey: D
         startBeat: 68
@@ -2721,8 +2734,8 @@ gonzaga-tango-caracteristico:
         name: B
         start: 53/1
         end: 68/2
-        startLine: 385
-        endLine: 492
+        startLine: 389
+        endLine: 496
         startKey: G
         endKey: G
         startBeat: 104
@@ -2732,8 +2745,8 @@ gonzaga-tango:
         name: A
         start: 1/1
         end: 8/1
-        startLine: 13
-        endLine: 59
+        startLine: 14
+        endLine: 60
         startKey: F
         endKey: F
         startBeat: 0
@@ -2742,8 +2755,8 @@ gonzaga-tango:
         name: B
         start: 8/2
         end: 24/2
-        startLine: 61
-        endLine: 187
+        startLine: 62
+        endLine: 188
         startKey: F
         endKey: F
         startBeat: 15
@@ -2752,8 +2765,8 @@ gonzaga-tango:
         name: A
         start: 25/1
         end: 32/2
-        startLine: 192
-        endLine: 240
+        startLine: 193
+        endLine: 241
         startKey: F
         endKey: F
         startBeat: 48
@@ -2763,8 +2776,8 @@ gonzaga-tim-tim:
         name: Intro
         start: 1/1
         end: 16/1
-        startLine: 13
-        endLine: 97
+        startLine: 16
+        endLine: 100
         startKey: F
         endKey: F
         startBeat: 0
@@ -2773,8 +2786,8 @@ gonzaga-tim-tim:
         name: A
         start: 16/2
         end: 32/1
-        startLine: 101
-        endLine: 201
+        startLine: 104
+        endLine: 204
         startKey: F
         endKey: F
         startBeat: 31
@@ -2782,20 +2795,30 @@ gonzaga-tim-tim:
     -
         name: B
         start: 32/2
-        end: 39/1
-        startLine: 203
-        endLine: 253
+        end: 41/1
+        startLine: 206
+        endLine: 272
         startKey: F
         endKey: d
         startBeat: 63
-        endBeat: 76
+        endBeat: 80
+    -
+        name: A
+        start: 41/2
+        end: 57/1
+        startLine: 275
+        endLine: 377
+        startKey: d
+        endKey: F
+        startBeat: 81
+        endBeat: 112
 gonzaga-tupa:
     -
         name: A
         start: 1/1
         end: 17/1
-        startLine: 12
-        endLine: 139
+        startLine: 15
+        endLine: 142
         startKey: G
         endKey: C
         startBeat: 0
@@ -2804,8 +2827,8 @@ gonzaga-tupa:
         name: B
         start: 17/1.25
         end: 33/1
-        startLine: 140
-        endLine: 270
+        startLine: 143
+        endLine: 273
         startKey: C
         endKey: C
         startBeat: 32.25
@@ -2814,8 +2837,8 @@ gonzaga-tupa:
         name: A
         start: 33/1.25
         end: 49/1
-        startLine: 271
-        endLine: 399
+        startLine: 274
+        endLine: 402
         startKey: C
         endKey: G
         startBeat: 64.25
@@ -2824,8 +2847,8 @@ gonzaga-tupa:
         name: C
         start: 49/1.75
         end: 65/2
-        startLine: 400
-        endLine: 519
+        startLine: 404
+        endLine: 523
         startKey: G
         endKey: C
         startBeat: 96.75
@@ -2835,8 +2858,8 @@ gonzaga-xi:
         name: Intro
         start: 1/1
         end: 8/1
-        startLine: 13
-        endLine: 54
+        startLine: 14
+        endLine: 55
         startKey: C
         endKey: C
         startBeat: 0
@@ -2845,28 +2868,28 @@ gonzaga-xi:
         name: A
         start: 9/1
         end: 25/1
-        startLine: 60
-        endLine: 180
+        startLine: 61
+        endLine: 181
         startKey: C
         endKey: C
         startBeat: 16
         endBeat: 48
     -
         name: B
-        start: 26/1
+        start: 25/2.5
         end: 41/2.5
-        startLine: 186
-        endLine: 284
-        startKey: F
+        startLine: 183
+        endLine: 285
+        startKey: C
         endKey: F
-        startBeat: 50
+        startBeat: 49.5
         endBeat: 81.5
     -
         name: A
         start: 42/1
         end: 57/2
-        startLine: 287
-        endLine: 403
+        startLine: 288
+        endLine: 404
         startKey: F
         endKey: F
         startBeat: 82
@@ -2876,8 +2899,8 @@ gonzaga-yo-te-adoro:
         name: Intro
         start: 1/1
         end: 9/1
-        startLine: 13
-        endLine: 48
+        startLine: 14
+        endLine: 49
         startKey: F
         endKey: F
         startBeat: 0
@@ -2886,8 +2909,8 @@ gonzaga-yo-te-adoro:
         name: A
         start: 10/1
         end: 25/2.5
-        startLine: 53
-        endLine: 148
+        startLine: 54
+        endLine: 149
         startKey: F
         endKey: F
         startBeat: 18
@@ -2896,8 +2919,8 @@ gonzaga-yo-te-adoro:
         name: B
         start: 26/1
         end: 41/1
-        startLine: 151
-        endLine: 242
+        startLine: 152
+        endLine: 243
         startKey: d
         endKey: d
         startBeat: 50
@@ -2906,8 +2929,8 @@ gonzaga-yo-te-adoro:
         name: A
         start: 42/1
         end: 57/1
-        startLine: 246
-        endLine: 338
+        startLine: 247
+        endLine: 339
         startKey: F
         endKey: F
         startBeat: 82

@@ -17,7 +17,7 @@ const pathToKernScores = [
         prefix: 'gonzaga-',
     },
 ];
-const formYamlPath = `${__dirname}/../content/raw-data/form.yaml`;
+const formYamlPath = `${__dirname}/../content/raw-data/raw-form.yaml`;
 const formContentYamlPath = `${__dirname}/../content/data/form.yaml`;
 
 function getIdFromFilename(path) {
@@ -196,7 +196,7 @@ function addLineNumbersAsSpine(kern) {
             line += '\t!';
         } else if (line.startsWith('=')) {
             line += '\t=';
-        } else {
+        } else if (line.trim() !== '') {
             line += `\t${i + 1}`;
         }
         lines[i] = line;
