@@ -14,17 +14,6 @@ interface SectionGroup {
     color?: string;
 }
 
-interface Special {
-    startLine: number,
-    endLine: number;
-    label?: Label | string | null;
-}
-
-interface SpecialsGroup {
-    items: Special[];
-    color?: string;
-}
-
 interface Line {
     lineNumber: number,
     label?: Label | string | null;
@@ -48,13 +37,11 @@ interface Label {
 export type NotesProp = NoteGroup[] | string[];
 export type LinesProp = LineGroup[] | number[];
 export type SectionsProp = SectionGroup[] | Section[];
-export type SpecialsProp = SpecialsGroup[] | Special[];
 
 export function useResolveHighlightedScoreProps(props: {
     notes?: NotesProp;
     lines?: LinesProp;
     sections?: SectionsProp;
-    specials?: SpecialsProp;
     filters?: Array<string>,
 }) {
     const defaultColors = [
@@ -167,48 +154,7 @@ export function useResolveHighlightedScoreProps(props: {
                 : [],
             color: group.color || defaultColors[index % defaultColors.length],
         }));
-});
-
-    const isValidSpecial = (section: Section): boolean => {
-        return (
-            typeof section.startLine === 'number' &&
-            typeof section.endLine === 'number' &&
-            section.startLine >= 0 &&
-            section.endLine >= section.startLine
-        );
-    };
-
-    const resolvedSpecials = computed<SpecialsGroup[]>(() => {
-        const specials = props.specials ?? [];
-
-    // case: Special[]
-    if (specials.length > 0 && specials[0] && 'startLine' in specials[0]) {
-        const valid = (specials as Special[]).filter(isValidSpecial).map((c) => ({
-                startLine: applyLineShift(c.startLine)!,
-                endLine: applyLineShift(c.endLine)!,
-                label: resolveLabel(c.label),
-            }));
-            return [
-                {
-                    items: valid,
-                    color: defaultColors[0],
-                },
-            ];
-        }
-
-    // case 2: SpecialsGroup[]
-    return (specials as SpecialsGroup[]).map((group, index) => ({
-        ...group,
-        items: Array.isArray(group.items)
-            ? group.items.filter(isValidSpecial).map((c) => ({
-                startLine: applyLineShift(c.startLine)!,
-                endLine: applyLineShift(c.endLine)!,
-                label: resolveLabel(c.label) ?? null,
-            }))
-            : [],
-        color: group.color || defaultColors[index % defaultColors.length],
-    }));
-});
+    });
 
     const isValidLineNumber = (n: number): boolean => Number.isInteger(n) && n >= 0;
 
@@ -261,6 +207,5 @@ export function useResolveHighlightedScoreProps(props: {
         resolvedNotes,
         resolvedSections,
         resolvedLines,
-        resolvedSpecials,
-    }
+    };
 }
