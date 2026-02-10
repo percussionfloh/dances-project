@@ -8,11 +8,10 @@ const props = defineProps<{
     notes?: NotesProp,
     lines?: LinesProp,
     sections?: SectionsProp,
-    specials?: SpecialsProp,
     filters?: Array<string>,
 }>();
 
-const { resolvedNotes, resolvedLines, resolvedSections, resolvedSpecials } = useResolveHighlightedScoreProps(props);
+const { resolvedNotes, resolvedLines, resolvedSections } = useResolveHighlightedScoreProps(props);
 
 const verovioCanvas = ref(null);
 
@@ -68,9 +67,6 @@ onMounted(async () => {
                 </template>
                 <template v-for="lineGroup in resolvedLines">
                     <HighlightedSection v-for="line in lineGroup.items" :start-line="line.lineNumber" :end-line="line.lineNumber" :label="line.label" :color="lineGroup.color" :container="scoreContainer" />
-                </template>
-                <template v-for="specialsGroup in resolvedSpecials">
-                    <HighlightedSection v-for="special in specialsGroup.items" :start-line="special.startLine" :end-line="special.endLine" :label="special.label" :color="specialsGroup.color" :container="scoreContainer" />
                 </template>
             </template>
         </div>
