@@ -153,7 +153,6 @@ function getParsedMomentPart(momentPart, kernLines, data) {
 
         // check if start of form matches current line
         if (current.measure === start.measure && current.meter === start.beat) {
-            console.log(`✅ START MATCH at line ${current.lineNumber}: measure ${current.measure}, meter ${current.meter} === beat ${start.beat}`);
             newProperties.startLine = current.lineNumber;
             newProperties.startBeat = current.absb;
             newProperties.startKey = current.key;
@@ -161,21 +160,12 @@ function getParsedMomentPart(momentPart, kernLines, data) {
         
         // check if end of form matches current line
         if (current.measure === end.measure && current.meter === end.beat) {
-            console.log(`✅ END MATCH at line ${current.lineNumber}: measure ${current.measure}, meter ${current.meter} === beat ${end.beat}`);
             newProperties.endLine = current.lineNumber;
             newProperties.endBeat = current.absb;
             newProperties.endKey = current.key;
         }
     }
     
-    if (!newProperties.startLine) {
-        console.log(`❌ START NOT FOUND for measure ${start.measure}, beat ${start.beat}`);
-        console.log(`   Sample current values: measure=${current.measure}, meter=${current.meter}`);
-    }
-    if (!newProperties.endLine) {
-        console.log(`❌ END NOT FOUND for measure ${end.measure}, beat ${end.beat}`);
-    }
-
     const parsedChildren = [];
 
     if (Array.isArray(momentPart.children)) {
@@ -326,11 +316,9 @@ spine 6 = slice (line) duration                      => beat -da --attacks 0
     });
 }
 
-console.log(momentData);
-
+console.log(momentData)
 
 fs.writeFileSync(momentContentYamlPath, yaml.dump(momentData, {
     indent: 4,
     lineWidth: -1,
-    // sortKeys: true,
 }));
