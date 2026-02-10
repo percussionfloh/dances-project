@@ -131,20 +131,20 @@ function getPieceTitle() {
                                 startLine: formPart.startLine,
                                 endLine: formPart.endLine,
                                 label: `${formPart.name} ${formPart.sequence ?? ''}`
-                            }   }),
-                        },
-                    ]"
-                :specials="[
+                            };
+                        }),
+                    },
                     {
-                        items: moment.map(momentPart => {
+                        items: scoreOptions.showMoment ? moment.map(momentPart => {
                             return {
                                 startLine: momentPart.startLine,
                                 endLine: momentPart.endLine,
                                 label: `${momentPart.name}`
-                            }   }),           
-                            color: 'rgb(304 0 0 / 0.7)',
-                        },
-                    ]"
+                            };
+                        }) : [],
+                        color: 'rgb(304 0 0 / 0.7)',
+                    },
+                ]"
                 :lines="scoreOptions.showModulations ? [{
                     items: modulations.map(m => ({
                         lineNumber: m.startLine,
