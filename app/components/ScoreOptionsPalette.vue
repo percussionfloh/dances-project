@@ -44,7 +44,7 @@ const groups = computed(() => {
                     label: t('showMoment'),
                     onSelect: () => (scoreOptions.showMoment = !scoreOptions.showMoment),
                     active: scoreOptions.showMoment,
-                    kbd: 'S'
+                    kbd: 'X'
                 }
             ],
         },
